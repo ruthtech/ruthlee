@@ -1,37 +1,54 @@
-## Welcome to GitHub Pages
+# Portfolio 
+This is a rudimentary portfolio page for Ruth Lee.
 
-You can use the [editor on GitHub](https://github.com/ruthtech/ruthtech/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Getting Started
+All of the files can be loaded with your browser. Copy the files to your local directory and open index.html.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Prerequisites
+A browser. Chrome was used for testing. 
 
-### Markdown
+### Installing
+1. Go to https://github.com/ruthtech/portfolio and click on the "Clone or Download" button. 
+2. Choose "Download ZIP". 
+3. Unzip into a directory. If you're on Windows, open File Explorer and navigate to the download directory. Select the ZIP file, right click, and choose "Extract All". Accept the default location.
+4. Once the file is unzipped, navigate to portfolio-master and use your browser to open index.html.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Running the tests
+No test suite has been created for these simple HTML and CSS files but you can check Google Chrome's Developer Tools to see if there's any syntax errors. 
 
-# Header 1
-## Header 2
-### Header 3
+## Deployment
+To deploy this on a live system, copy all of the files to your server. 
 
-- Bulleted
-- List
+## Built With
+* [Visual Studio Code] https://code.visualstudio.com/docs/setup/setup-overview
+* [Visual Studio Code Extension "Open in Browser"] 
+  * Open VS Code.
+  * Open the extensions pane and search for open in browser.
+  * Select the version written by TechER and click Install.
+* [Google Chrome] (https://www.google.com/chrome/browser/desktop/index.html)
+* [GIMP] (https://www.gimp.org/downloads/)
 
-1. Numbered
-2. List
+## Contributing
+This project is not open to contributions.
 
-**Bold** and _Italic_ and `Code` text
+## Versioning
+This project does not use versions at this time. 
 
-[Link](url) and ![Image](src)
-```
+## Authors
+Ruth Lee
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## License
+MIT
 
-### Jekyll Themes
+## Acknowledgments
+Thanks to the following:
+* [w3schools.com] https://www.w3schools.com 
+  * For instructions on creating the tab menu and details about CSS flexbox
+* [SubtlePatterns] https://subtlepatterns.com/ 
+  * For creating the hotel-wallpaper.png image.
+* [HTML validator] https://validator.w3.org/#validate_by_input
+  * For validating the HTML in index.html, contact.html, and portfolio.html
+* [U of T Coding Bootcamp] https://bootcamp.learn.utoronto.ca/coding/
+  * For teaching me CSS. I didn't realize how much I was missing.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ruthtech/ruthtech/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
