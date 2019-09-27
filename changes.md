@@ -2,11 +2,6 @@
 
 ## TO DO
 Recreate the portfolio using Bootstrap
-1. Initial commit and setup
-  1. Create the following pages: `index.html`, `portfolio.html` and `contact.html`. 
-  2. Add the include for the bootstrap CSS into each of the 3 files. Delete the unreferenced image file. 
-  3. Create the assets directory as before. 
-  4. Create this file to track the development plan. 
 
 2. Using Bootstrap, recreate your portfolio site with the following items:
   1. A navbar
@@ -23,3 +18,8 @@ Recreate the portfolio using Bootstrap
   2. GitHub.io pages rendering the portfolio
 
 ## DONE
+1. Initial commit and setup
+  1. Create the following pages: `index.html`, `portfolio.html` and `contact.html`. 
+  2. Add the include for the bootstrap CSS into each of the 3 files. Delete the unreferenced image file. 
+  3. Create the assets directory as before. 
+  4. Create this file to track the development plan. 
