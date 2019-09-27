@@ -4,10 +4,8 @@
 Recreate the portfolio using Bootstrap
 
 2. Using Bootstrap, recreate your portfolio site with the following items:
-  1. A navbar
   2. A main content area
   3. A wallpaper background
-  4. A footer
   5. A responsive layout
   6. Responsive images
 
@@ -39,4 +37,6 @@ Recreate the portfolio using Bootstrap
     * Replaced custom colours with Bootstrap colours
     * Removed all external CSS styling
     * Active tab is now bold instead of a different colour background
-    
+  4. A footer
+    * Needed to recreate styles.css because Bootstrap doesn't have a built-in class to set the border thickness. Also, because Bootstrap makes many of its classes !important I had to make my override !important too or it didn't have any effect. 
+
