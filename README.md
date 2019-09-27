@@ -28,6 +28,8 @@ To deploy this on a live system, copy all of the files to your server.
   * Select the version written by TechER and click Install.
 * [Google Chrome] (https://www.google.com/chrome/browser/desktop/index.html)
 * [GIMP] (https://www.gimp.org/downloads/)
+* [Google Markdown Viewer] (https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk?hl=en) 
+  * This is a Google Chrome extension to render markdown files, such as README.md, locally before it is pushed to GitHub. 
 
 ## Contributing
 This project is not open to contributions.
