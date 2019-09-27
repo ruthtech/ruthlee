@@ -19,6 +19,7 @@ Recreate the portfolio using Bootstrap
   * Bootstrap documentation
   * https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items (Showed a code example of how to create a navbar with the branding on the left and the navigation on the right)
   * https://stackoverflow.com/questions/56329671/information-about-bootstrap-4-class-dual-collapse2 explaining that the dual-collapse2 class used in the above example was prorpietary rather than vanilla Bootstrap. (I deleted that class after finding that out.)
+  * https://stackoverflow.com/questions/48506610/bootstrap-4-border-utilities for clarifying that Bootstrap doesn't have anything built in and to look out for !important. 
 
 5. Submit
   1. GitHub repository with README describing the project
