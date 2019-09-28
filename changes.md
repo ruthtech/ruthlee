@@ -4,9 +4,6 @@
 Recreate the portfolio using Bootstrap
 
 2. Using Bootstrap, recreate your portfolio site with the following items:
-     1. Content in index.html.
-     2. Form in contact.html
-     3. Portfolio images in portfolio.html.
   3. A wallpaper background
   5. A responsive layout
   6. Responsive images
@@ -22,6 +19,7 @@ Recreate the portfolio using Bootstrap
   * https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items (Showed a code example of how to create a navbar with the branding on the left and the navigation on the right)
   * https://stackoverflow.com/questions/56329671/information-about-bootstrap-4-class-dual-collapse2 explaining that the dual-collapse2 class used in the above example was prorpietary rather than vanilla Bootstrap. (I deleted that class after finding that out.)
   * https://stackoverflow.com/questions/48506610/bootstrap-4-border-utilities for clarifying that Bootstrap doesn't have anything built in and to look out for !important. 
+  * https://stackoverflow.com/questions/16466240/adjusting-and-image-size-to-fit-a-div-bootstrap#30252800 for the clarification on bootstrap images
 
 5. Submit
   1. GitHub repository with README describing the project
@@ -42,6 +40,9 @@ Recreate the portfolio using Bootstrap
     * Active tab is now bold instead of a different colour background
   2. A main content area
     * Each page has placeholder content rather than images, forms, etc.
+     1. Content in index.html.
+     2. Form in contact.html
+     3. Portfolio images in portfolio.html.
   4. A footer
     * Needed to recreate styles.css because Bootstrap doesn't have a built-in class to set the border thickness. Also, because Bootstrap makes many of its classes !important I had to make my override !important too or it didn't have any effect. 
 

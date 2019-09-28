@@ -12,7 +12,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-1 border border-top-0 border-left-0 border-right-0">
-                <p>1</p>
+                <!-- Blank column -->
             </div>
             <div class="col-sm-10 border border-top-0 border-left-0 border-right-0 p-0">
                 <!-- Navbar needs to line up on left and right with the main content. -->
@@ -32,18 +32,32 @@
                 </nav>
             </div>
             <div class="col-sm-1 border border-top-0 border-left-0 border-right-0">
-                <p>2</p>
+                <!-- Blank column -->
             </div>
         </div>
         <div class="row">
             <div class="col-sm-1">
-                <p>3</p>
+                <!-- Blank column -->
             </div>
             <div class="col-sm-10 border border-top-0 border-bottom-0">
-                <p>This is a contact form.</p>
+                <form>
+                    <div class="form-group">
+                       <label for="usr">Name</label>
+                        <input type="text" class="form-control" id="usr">
+                    </div>                  
+                    <div class="form-group">
+                        <label for="emailAddress">Email</label>
+                        <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="10"></textarea>
+                    </div>
+                </form>
+
             </div>
             <div class="col-sm-1">
-                <p>4</p>
+                <!-- Blank column -->
             </div>
         </div>
     </div>
