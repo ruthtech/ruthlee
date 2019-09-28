@@ -4,7 +4,6 @@
 Recreate the portfolio using Bootstrap
 
 2. Using Bootstrap, recreate your portfolio site with the following items:
-  3. A wallpaper background
   5. A responsive layout
   6. Responsive images
 
@@ -43,6 +42,14 @@ Recreate the portfolio using Bootstrap
      1. Content in index.html.
      2. Form in contact.html
      3. Portfolio images in portfolio.html.
+  3. A wallpaper background
+    * Turns out that setting the wallpaper on the grid container doesn't stretch it to
+      the edges of the viewport because the container has a max-wdith set. Rather than
+      removing that, because keeping it a multiple of 12 is necessary for grid layout,
+      I moved the navbar into its own container and wrapped the main content in a new 
+      div that only sets the wallpaper. The navbar had to be moved into its own 
+      container because it requires a white background and it also has to line up with 
+      the left and right of the main container. 
   4. A footer
     * Needed to recreate styles.css because Bootstrap doesn't have a built-in class to set the border thickness. Also, because Bootstrap makes many of its classes !important I had to make my override !important too or it didn't have any effect. 
 

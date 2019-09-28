@@ -1,3 +1,7 @@
 .footer-border {
     border-top: 10px solid rgb(71, 112, 139)!important;
 }
+
+.wallpaper {
+    background: url("../images/hotel-wallpaper.png");
+}
