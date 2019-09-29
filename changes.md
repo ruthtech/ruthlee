@@ -59,4 +59,5 @@ Recreate the portfolio using Bootstrap
      * footer
      * header
      * main area
- 
+     * On About page, make the image stretch 100% width when on xs screen. 
+
