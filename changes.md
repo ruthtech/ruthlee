@@ -60,5 +60,5 @@ Recreate the portfolio using Bootstrap
      * header
      * main area
      * On About page, make the image stretch 100% width when on xs screen. 
-     * On xs screen, hide the footer
+     * On xs screen, hide the footer - UNDONE! Realized that other pages showed the footer on xs screens. Portfolio image was cropped due to length.
 
