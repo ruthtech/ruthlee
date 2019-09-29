@@ -13,10 +13,12 @@
 
 .toggle-padding {
     visibility: visible;
+    padding-bottom: 5em;
 }
 
 @media only screen and (max-width: 576px) {
     .toggle-padding {
       visibility: hidden;
+      padding-bottom: 0em;
     }
 }

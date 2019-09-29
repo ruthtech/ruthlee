@@ -20,6 +20,11 @@ Recreate the portfolio using Bootstrap
   * https://stackoverflow.com/questions/56329671/information-about-bootstrap-4-class-dual-collapse2 explaining that the dual-collapse2 class used in the above example was prorpietary rather than vanilla Bootstrap. (I deleted that class after finding that out.)
   * https://stackoverflow.com/questions/48506610/bootstrap-4-border-utilities for clarifying that Bootstrap doesn't have anything built in and to look out for !important. 
   * https://stackoverflow.com/questions/16466240/adjusting-and-image-size-to-fit-a-div-bootstrap#30252800 for the clarification on bootstrap images
+  * https://jigsaw.w3.org/css-validator/#validate_by_input for validating my CSS input. My visibility: hidden wasn't working and it turned out to be due to a typo higher up in my CSS file. 
+  * W3schools for the @media syntax
+  * https://getbootstrap.com for all of their documentation about Bootstrap
+  * https://stackoverflow.com/questions/10464716/div-expand-to-visually-fill-vertical-space for helping me realize that height:100% on my main container needed me to set the height on the body and html elements. Altering body is bad practice other than setting a background colour, so I investigated a different technique instead. (Added the row with empty content and visibility:hidden or visible based on screen size.)
+
 
 5. Submit
   1. GitHub repository with README describing the project
