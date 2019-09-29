@@ -8,33 +8,24 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <title>Ruth Lee: Contact</title>
 </head>
-    <!-- Navbar needs to line up on left and right with the main content. -->
-    <div class="container p-0">
-        <div class="row">
-            <div class="col">
-                <nav class="navbar navbar-expand-md p-0">
-                    <div class="navbar-collapse collapse order-1 order-md-0">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active"><a class="navbar-brand bg-info text-white font-weight-bold p-1" href="index.html">Ruth Lee</a></li>
-                        </ul>
-                    </div>
-                    <div class="navbar-collapse collapse order-3">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"><a class="nav-link text-dark border border-top-0 border-bottom-0 border-left-0" href="index.html">About</a></li>
-                            <li class="nav-item"><a class="nav-link text-dark border border-top-0 border-bottom-0 border-left-0" href="portfolio.html">Portfolio</a></li>
-                            <li class="nav-item"><a class="nav-link text-dark font-weight-bold" href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
-
-    <!-- Main area -->
+    <!-- HEADER -->
+    <nav class="navbar navbar-expand-sm p-0">
+        <a class="navbar-brand col-12 col-sm-4 bg-info text-white font-weight-bold " href="#">Ruth Lee</a>
+        
+        <ul class="navbar-nav col-12 col-sm-8 flex-row" >
+            <li class="nav-item col-sm-4"><a class="nav-link text-dark border border-top-0 border-bottom-0 border-left-0 font-weight-bold" href="index.html">About</a></li>
+            <li class="nav-item col-sm-4"><a class="nav-link text-dark border border-top-0 border-bottom-0 border-left-0" href="portfolio.html">Portfolio</a></li>
+            <li class="nav-item col-sm-4"><a class="nav-link text-dark" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+            
+    <!-- MAIN CONTENT -->    
     <div class="wallpaper">
-        <div class="container bg-white">
+        <div class="container">
             <div class="row">
-                <div class="col-sm-12 border border-top-0 border-bottom-0">
+                <div class="col m-4 p-4 bg-white">
+                    <h1>Contact</h1>
+                    <hr/>
                     <form>
                         <div class="form-group">
                         <label for="usr">Name</label>
@@ -48,6 +39,7 @@
                             <label for="message">Message</label>
                             <textarea class="form-control" id="message" rows="10"></textarea>
                         </div>
+                        <button type="submit" class="btn btn-primary bg-info">Submit</button>
                     </form>
                 </div>
             </div>

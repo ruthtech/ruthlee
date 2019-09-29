@@ -5,6 +5,9 @@ Recreate the portfolio using Bootstrap
 
 2. Using Bootstrap, recreate your portfolio site with the following items:
   5. A responsive layout
+     * Improve header (two lines on xs screen, one line left and right aligned on sm and larger screens)
+     * Improve main area (on xs fill the area; on sm and larger show more of the wallpaper)
+
   6. Responsive images
 
 3. In addition, the site must meet the following requirements:
@@ -52,4 +55,8 @@ Recreate the portfolio using Bootstrap
       the left and right of the main container. 
   4. A footer
     * Needed to recreate styles.css because Bootstrap doesn't have a built-in class to set the border thickness. Also, because Bootstrap makes many of its classes !important I had to make my override !important too or it didn't have any effect. 
-
+  5. A responsive layout
+     * footer
+     * header
+     * main area
+ 

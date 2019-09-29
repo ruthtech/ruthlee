@@ -5,3 +5,8 @@
 .wallpaper {
     background: url("../images/hotel-wallpaper.png");
 }
+
+.position-card-title-bottom {
+    top: auto!important;
+    bottom: 1em!important;
+}
