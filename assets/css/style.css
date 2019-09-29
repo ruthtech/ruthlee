@@ -10,3 +10,13 @@
     top: auto!important;
     bottom: 1em!important;
 }
+
+.toggle-padding {
+    visibility: visible;
+}
+
+@media only screen and (max-width: 576px) {
+    .toggle-padding {
+      visibility: hidden;
+    }
+}

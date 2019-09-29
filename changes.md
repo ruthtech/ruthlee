@@ -6,8 +6,6 @@ Recreate the portfolio using Bootstrap
 2. Using Bootstrap, recreate your portfolio site with the following items:
   5. A responsive layout
      * Improve header (two lines on xs screen, one line left and right aligned on sm and larger screens)
-     * Improve main area (on xs fill the area; on sm and larger show more of the wallpaper)
-
   6. Responsive images
 
 3. In addition, the site must meet the following requirements:
@@ -61,4 +59,5 @@ Recreate the portfolio using Bootstrap
      * main area
      * On About page, make the image stretch 100% width when on xs screen. 
      * On xs screen, hide the footer - UNDONE! Realized that other pages showed the footer on xs screens. Portfolio image was cropped due to length.
+     * Improve main area (on xs fill the area; on sm and larger show more of the wallpaper)
 
