@@ -32,7 +32,7 @@ To deploy this on a live system, copy all of the files to your server.
   * This is a Google Chrome extension to render markdown files, such as README.md, locally before it is pushed to GitHub. 
 * Bootstrap
   * [Bootstrap] (https://getbootstrap.com)
-  * [CSS validator] https://jigsaw.w3.org/css-validator/#validate_by_input
+* [CSS validator] https://jigsaw.w3.org/css-validator/#validate_by_input
 
 
 ## Contributing
