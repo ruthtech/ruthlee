@@ -8,6 +8,12 @@
     padding-bottom: 5em;
 }
 
+.main-content {
+    padding: 1.5rem;
+    margin: 1.5rem;
+    background-color: white;
+}
+
 /* 
 When the screen is larger, add padding between the main 
 content and the footer. 
@@ -24,10 +30,21 @@ the main content.
 /* End main section */
 
 /* Portfolio page */
-.position-card-title-bottom {
-    top: auto!important;
-    bottom: 1em!important;
+.portfolio-card {
+    position: absolute;
+    top: auto;
+    bottom: 1em;
+    right: 0;
+    left: 0;
 }
+
+.portfolio-card-text {
+    background-color: #17a2b8;
+    color: white;
+    padding: 0.5rem 0;
+    margin-bottom: 0;
+}
+
 /* End Portfolio page */
 
 /* Navigation menu (header) */
@@ -60,12 +77,12 @@ the main content.
 }
 
 .align {
-    justify-content: flex-end!important;
+    justify-content: flex-end;
 }
 
 @media only screen and (max-width: 576px) {
     .align {
-        justify-content: center!important;
+        justify-content: center;
     }
 }
 /* End navigation menu */
@@ -73,6 +90,10 @@ the main content.
 /* Footer */
 .footer-border {
     border-top: 10px solid rgb(71, 112, 139)!important;
+    text-align: center;
+    color: white;
+    background-color: #17a2b8;
+    padding: 0;
 }
 /* End footer */
 
