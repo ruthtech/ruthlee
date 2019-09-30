@@ -3,16 +3,6 @@
 ## TO DO
 Recreate the portfolio using Bootstrap
 
-2. Using Bootstrap, recreate your portfolio site with the following items:
-  5. A responsive layout
-     * Improve header (two lines on xs screen, one line left and right aligned on sm and larger screens)
-  6. Responsive images
-
-3. In addition, the site must meet the following requirements:
-  1. Minimize the use of media queries.
-  2. Use Bootstrap's grid system (containers, rows, and columns).
-  3. On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
-
 
 5. Submit
   1. GitHub repository with README describing the project
@@ -53,6 +43,8 @@ Recreate the portfolio using Bootstrap
      * On About page, make the image stretch 100% width when on xs screen. 
      * On xs screen, hide the footer - UNDONE! Realized that other pages showed the footer on xs screens. Portfolio image was cropped due to length.
      * Improve main area (on xs fill the area; on sm and larger show more of the wallpaper)
+     * Improve header (two lines on xs screen, one line left and right aligned on sm and larger screens)
+
 
 4. Update the credits to reflect the new tools:
   * Bootstrap
@@ -65,4 +57,12 @@ Recreate the portfolio using Bootstrap
   * W3schools for the @media syntax
   * https://getbootstrap.com for all of their documentation about Bootstrap
   * https://stackoverflow.com/questions/10464716/div-expand-to-visually-fill-vertical-space for helping me realize that height:100% on my main container needed me to set the height on the body and html elements. Altering body is bad practice other than setting a background colour, so I investigated a different technique instead. (Added the row with empty content and visibility:hidden or visible based on screen size.)
+
+2. Using Bootstrap, recreate your portfolio site with the following items:
+  6. Responsive images
+
+3. In addition, the site must meet the following requirements:
+  1. Minimize the use of media queries.
+  2. Use Bootstrap's grid system (containers, rows, and columns).
+  3. On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
 
