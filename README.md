@@ -30,6 +30,10 @@ To deploy this on a live system, copy all of the files to your server.
 * [GIMP] (https://www.gimp.org/downloads/)
 * [Google Markdown Viewer] (https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk?hl=en) 
   * This is a Google Chrome extension to render markdown files, such as README.md, locally before it is pushed to GitHub. 
+* Bootstrap
+  * [Bootstrap] (https://getbootstrap.com)
+  * [CSS validator] https://jigsaw.w3.org/css-validator/#validate_by_input
+
 
 ## Contributing
 This project is not open to contributions.
@@ -53,4 +57,10 @@ Thanks to the following:
   * For validating the HTML in index.html, contact.html, and portfolio.html
 * [U of T Coding Bootcamp] https://bootcamp.learn.utoronto.ca/coding/
   * For teaching me CSS. I didn't realize how much I was missing.
-
+* [Bootstrap] (https://getbootstrap.com 
+  * For all of their documentation about Bootstrap and Bootstrap itself.
+* [CSS validator] https://jigsaw.w3.org/css-validator/#validate_by_input
+  * For validating CSS. 
+* [Google Markdown Viewer] (https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk?hl=en) 
+  * For rendering markdown files, such as README.md, locally to check them before Git is used to push them to GitHub.
+  
