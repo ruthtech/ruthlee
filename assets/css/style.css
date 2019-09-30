@@ -1,14 +1,6 @@
-.footer-border {
-    border-top: 10px solid rgb(71, 112, 139)!important;
-}
-
+/* Main section */
 .wallpaper {
     background: url("../images/hotel-wallpaper.png");
-}
-
-.position-card-title-bottom {
-    top: auto!important;
-    bottom: 1em!important;
 }
 
 .toggle-padding {
@@ -16,9 +8,71 @@
     padding-bottom: 5em;
 }
 
+/* 
+When the screen is larger, add padding between the main 
+content and the footer. 
+
+When the screen is smaller, use all of the viewport for
+the main content.
+*/
 @media only screen and (max-width: 576px) {
     .toggle-padding {
       visibility: hidden;
       padding-bottom: 0em;
     }
 }
+/* End main section */
+
+/* Portfolio page */
+.position-card-title-bottom {
+    top: auto!important;
+    bottom: 1em!important;
+}
+/* End Portfolio page */
+
+/* Navigation menu (header) */
+.nav-logo {
+    background-color: rgb(71, 112, 139);
+    text-align: center;
+}
+
+.nav-item {
+    border-right: 1px solid #dee2e6;
+}
+
+.nav-item-last {
+    border: 0;
+}
+
+.nav-link {
+    color: black;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    padding: .625em;
+}
+
+.align {
+    justify-content: flex-end!important;
+}
+
+@media only screen and (max-width: 576px) {
+    .align {
+        justify-content: center!important;
+    }
+}
+/* End navigation menu */
+
+/* Footer */
+.footer-border {
+    border-top: 10px solid rgb(71, 112, 139)!important;
+}
+/* End footer */
+
