@@ -8,7 +8,7 @@ All of the files can be loaded with your browser. Copy the files to your local d
 A browser. Chrome was used for testing. 
 
 ### Installing
-1. Go to https://github.com/ruthtech/portfolio and click on the "Clone or Download" button. 
+1. Go to https://github.com/ruthtech/ruthtech and click on the "Clone or Download" button. 
 2. Choose "Download ZIP". 
 3. Unzip into a directory. If you're on Windows, open File Explorer and navigate to the download directory. Select the ZIP file, right click, and choose "Extract All". Accept the default location.
 4. Once the file is unzipped, navigate to portfolio-master and use your browser to open index.html.
