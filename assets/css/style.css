@@ -1,3 +1,4 @@
+/* HEADER */
 .logo {
 	background-color: black;	
 }
@@ -17,7 +18,17 @@
 .strikethrough {
 	text-decoration: line-through;
 }
+/* END HEADER */
 
+/* CONTACT PAGE */
+.contact-button {
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+/* END CONTACT PAGE */
+
+/* FOOTER */
 .footer {
 	background-color: black;
 	justify-content: center;
@@ -32,6 +43,6 @@
 	color: white;
 	font-size: x-small;
 }
-
+/* END FOOTER */
 
 
