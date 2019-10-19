@@ -20,6 +20,8 @@ No automated test suite has been created but you can check Google Chrome's Devel
 ## Deployment
 To deploy this on a live system, copy all of the files to your server. 
 
+To view this on a live system, go to https://ruthtech.github.io/ruthtech/
+
 ## Built With
 * [Visual Studio Code] https://code.visualstudio.com/docs/setup/setup-overview
 * [Visual Studio Code Extension "Open in Browser"] 
