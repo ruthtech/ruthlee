@@ -29,7 +29,11 @@ body {
 /* END HEADER */
 
 /* MAIN SECTIONS */
-.contact-button {
+.main {
+/* 	height: 100%; */
+}
+
+.portfolio-button {
 	width: 100%;
 	background-color: black;
 	color: white;
@@ -49,6 +53,27 @@ body {
 form {
 	border: 1px solid #dee2e6;
 	padding: 1rem;
+}
+
+.project {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border: 1em solid black;
+}
+
+.project-title {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.project-description {
+	
+}
+
+.project-skills li {
+	display: inline-block;
+	font-size: small;
+	padding: 1em;
 }
 /* END MAIN SECTIONS */
 
