@@ -20,13 +20,25 @@
 }
 /* END HEADER */
 
-/* CONTACT PAGE */
+/* MAIN SECTIONS */
 .contact-button {
 	width: 100%;
 	background-color: black;
 	color: white;
 }
-/* END CONTACT PAGE */
+
+.definition {
+	border: solid 1px black;
+	background-color: lightgray;
+	padding: 1em;
+	margin-bottom: 0.5em;
+}
+
+.definition h1 {
+	font-weight: bold;
+}
+/* END MAIN SECTIONS */
+
 
 /* FOOTER */
 .footer {
