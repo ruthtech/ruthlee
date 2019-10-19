@@ -1,99 +1,37 @@
-/* Main section */
-.wallpaper {
-    background: url("../images/hotel-wallpaper.png");
-}
-
-.toggle-padding {
-    visibility: visible;
-    padding-bottom: 5em;
-}
-
-.main-content {
-    padding: 1.5rem;
-    margin: 1.5rem;
-    background-color: white;
-}
-
-/* 
-When the screen is larger, add padding between the main 
-content and the footer. 
-
-When the screen is smaller, use all of the viewport for
-the main content.
-*/
-@media only screen and (max-width: 576px) {
-    .toggle-padding {
-      visibility: hidden;
-      padding-bottom: 0em;
-    }
-}
-/* End main section */
-
-/* Portfolio page */
-.portfolio-card {
-    position: absolute;
-    top: auto;
-    bottom: 1em;
-    right: 0;
-    left: 0;
-}
-
-.portfolio-card-text {
-    background-color: #17a2b8;
-    color: white;
-    padding: 0.5rem 0;
-    margin-bottom: 0;
-}
-
-/* End Portfolio page */
-
-/* Navigation menu (header) */
-.nav-logo {
-    background-color: rgb(71, 112, 139);
-    text-align: center;
-}
-
-.nav-item {
-    border-right: 1px solid #dee2e6;
-}
-
-.nav-item-last {
-    border: 0;
-}
-
-.nav-link {
-    color: black;
-}
-
-.active {
-    font-weight: bold;
-}
-
 .logo {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: white;
-    padding: .625em;
+	background-color: black;	
 }
 
-.align {
-    justify-content: flex-end;
+.logo-text {
+	color: white;
+	text-align: right;
+	font-size: small;
+	font-weight: bold;
+	font-style: italic;
+	vertical-align: bottom;
+	display: inline-block;
+	padding-top: 3em;
+	padding-bottom: 0.25em;
 }
 
-@media only screen and (max-width: 576px) {
-    .align {
-        justify-content: center;
-    }
+.strikethrough {
+	text-decoration: line-through;
 }
-/* End navigation menu */
 
-/* Footer */
-.footer-border {
-    border-top: 10px solid rgb(71, 112, 139)!important;
-    text-align: center;
-    color: white;
-    background-color: #17a2b8;
-    padding: 0;
+.footer {
+	background-color: black;
+	justify-content: center;
 }
-/* End footer */
+
+.footer-item {
+	text-align: center;
+}
+
+.footer a {
+	text-decoration: none;
+	color: white;
+	font-size: x-small;
+}
+
+
 
