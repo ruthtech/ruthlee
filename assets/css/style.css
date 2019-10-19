@@ -37,6 +37,7 @@ body {
 	width: 100%;
 	background-color: black;
 	color: white;
+	
 }
 
 .definition {
@@ -66,8 +67,9 @@ form {
 	font-weight: bold;
 }
 
-.project-description {
-	
+.project-image {
+	justify-content: flex-end;
+	display: flex;
 }
 
 .project-skills li {
@@ -82,6 +84,7 @@ form {
 .footer {
 	background-color: black;
 	justify-content: center;
+	padding-bottom: 1em;
 }
 
 .footer-item {
