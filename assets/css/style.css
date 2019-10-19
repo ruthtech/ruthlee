@@ -1,3 +1,11 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
 /* HEADER */
 .logo {
 	background-color: black;	
@@ -36,6 +44,11 @@
 
 .definition h1 {
 	font-weight: bold;
+}
+
+form {
+	border: 1px solid #dee2e6;
+	padding: 1rem;
 }
 /* END MAIN SECTIONS */
 
