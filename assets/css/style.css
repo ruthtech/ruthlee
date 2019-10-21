@@ -7,13 +7,10 @@
 @keyframes flowInBlue {
   0% {
     transform: scale(0.1);
-    opacity: 0;
-    background-color: white;
-    
+    background-color: white;   
   }
   100% {
     transform: scale(1);
-    opacity: 1;
     background-color: #17a2b8;
   }
 }
@@ -33,15 +30,44 @@
 @keyframes flowInRed {
   0% {
     transform: scale(0.1);
-    opacity: 0;
     background-color: white;
   }
   100% {
     transform: scale(1);
-    opacity: 1;
     background-color: #dc3545;
   }
 }
+
+@keyframes fadeInBlueText {
+  0% {
+    color: rgba(0, 0, 0, 0);
+/* 	opacity: 0; */
+  }
+  100% {
+    color: white;
+    opactity: 1;
+  }
+}
+
+@keyframes fadeInGreenText {
+  0% {
+    color: #28a745;
+  }
+  100% {
+    color: white;
+  }
+}
+
+
+@keyframes fadeInRedText {
+  0% {
+    color: #dc3545;
+  }
+  100% {
+    color: white;
+  }
+}
+
 
 
 /* HEADER */
@@ -73,24 +99,31 @@
 }
 
 .colour-box {
-	color: white;
 	margin: 4em;
 	padding: 4em;
 }
 
 .first {
 	animation:  flowInBlue 2s;
+	animation-fill-mode: forwards;
+    animation-delay: 0s;
+}
+
+.first-word {
+	animation:  fadeInBlueText 2s;
+	animation-fill-mode: backwards;
+    animation-delay: 2s;
 }
 
 .second {
 	animation:  flowInGreen 2s;
-	animation-fill-mode: backwards;
+	animation-fill-mode: forwards;
     animation-delay: 1s;
 }
 
 .third {
 	animation:  flowInRed 2s;
-	animation-fill-mode: backwards;
+	animation-fill-mode: forwards;
     animation-delay: 2s;
 }
 

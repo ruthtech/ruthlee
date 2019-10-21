@@ -1,0 +1,16 @@
+TO DO
+2. Make the contact page work (i.e., actually email someone)
+
+NICE TO HAVE
+4. Update the portfolio page and have blurbs about each portfolio project.
+   * Make "See live demo" button align with the bottom of the row
+* Bootstrap images on portfolio page - any way to use a larger image and just not display whatever isn't needed?  
+ 
+ DONE
+ * Portfolio page:
+    * Make some images align right
+   * Add some text to each project
+3. Update the home page with pictures that link to the portfolio projects.
+1. Make each page stretch to the bottom of the page (100%)
+ 
+ 
