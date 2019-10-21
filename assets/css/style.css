@@ -1,6 +1,8 @@
-html, body { 
- 	height: 100%; 
- } 
+@media (min-width: 575px) {
+	html, body {
+		height: 100%;
+	}
+}
 
 /* HEADER */
 .logo {
@@ -31,9 +33,9 @@ html, body {
 }
 
 .colour-box {
-	height: 100%;
 	color: white;
-	padding-top: 50%;
+	margin: 4em;
+	padding: 4em;
 }
 
 .colour-box a {
