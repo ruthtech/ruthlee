@@ -136,7 +136,7 @@
 }
 
 .filler {
-	height: 25%;
+	min-height: 20%;
 }
 
 .portfolio-button {
