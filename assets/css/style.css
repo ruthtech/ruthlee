@@ -86,7 +86,7 @@
 
 .colour-box {
 	color: white;
-	margin: 4em;
+	margin: 1em;
 	padding: 4em;
 }
 
@@ -136,7 +136,7 @@
 }
 
 .filler {
-	min-height: 20%;
+	min-height: 10%;
 }
 
 .portfolio-button {
