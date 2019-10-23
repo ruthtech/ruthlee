@@ -144,7 +144,7 @@
 	width: 100%;
 	background-color: black;
 	color: white;
-	
+	margin-top: 0.5em;	
 }
 
 .definition {
@@ -175,7 +175,7 @@ form {
 }
 
 .project-image {
-    height: 200px;
+    height: 300px;
     width: 80px;
     overflow: hidden;
 }
