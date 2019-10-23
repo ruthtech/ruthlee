@@ -100,25 +100,25 @@
 .second {
 	animation:  flowInGreen 1s;
 	animation-fill-mode: forwards;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
 }
 
 .third {
 	animation:  flowInRed 1s;
 	animation-fill-mode: forwards;
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 
 .fourth {
 	animation:  flowInLinks 1s;
 	animation-fill-mode: backwards;
-    animation-delay: 3s;
+    animation-delay: 1.5s;
 }
 
 .fifth {
 	animation:  flowInLinks 1s;
 	animation-fill-mode: backwards;
-    animation-delay: 4s;
+    animation-delay: 2s;
 }
 
 .link-box {
