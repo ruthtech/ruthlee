@@ -10,6 +10,33 @@
 	}
 }
 
+body {
+	background-color: #fbfbfb;
+}
+
+/* HEADER */
+.logo {
+	background-color: black;	
+}
+
+.logo-text {
+	color: #e6e6e6;
+	text-align: right;
+	font-size: small;
+	font-weight: bold;
+	font-style: italic;
+	vertical-align: bottom;
+	display: inline-block;
+	padding-top: 3em;
+	padding-bottom: 0.25em;
+}
+
+.strikethrough {
+	text-decoration: line-through;
+}
+/* END HEADER */
+
+/* MAIN SECTIONS */
 @keyframes flowInBlue {
   0% {
     transform: scale(0.1);
@@ -62,33 +89,8 @@
 	}
 }
 
-
-/* HEADER */
-.logo {
-	background-color: black;	
-}
-
-.logo-text {
-	color: #e6e6e6;
-	text-align: right;
-	font-size: small;
-	font-weight: bold;
-	font-style: italic;
-	vertical-align: bottom;
-	display: inline-block;
-	padding-top: 3em;
-	padding-bottom: 0.25em;
-}
-
-.strikethrough {
-	text-decoration: line-through;
-}
-/* END HEADER */
-
-/* MAIN SECTIONS */
 .main {
 	text-align: center;
-	background-color: #f0f0f0;
 }
 
 .colour-box {
@@ -167,6 +169,7 @@
 
 form {
 	border: 1px solid #dee2e6;
+	background-color: #f2f2f2;
 	padding: 1rem;
 }
 
