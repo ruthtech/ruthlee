@@ -2,16 +2,14 @@
 	html, body {
 		height: 100%;
 	}
-	
-	.footer {
-		position: absolute;
-  	    bottom: 0;
-  	    width: 100%;
-	}
 }
 
 body {
 	background-color: #fbfbfb;
+}
+
+.max-height {
+	height: 100vh;
 }
 
 /* HEADER */
@@ -85,7 +83,7 @@ body {
 	100% {
 	    transform: scale(1);
 	    opacity: 1;
-	    background-color: #000000;
+	    background-color: #999999;
 	}
 }
 
@@ -131,8 +129,8 @@ body {
 }
 
 .link-box {
-	color: #e6e6e6;
-	background-color: black;
+	color: white;
+	background-color: #999999;
    	text-align: center;
    	margin-bottom: 1em;
    	padding-top: 1em;
@@ -141,7 +139,7 @@ body {
 
 .link-box a {
 	text-decoration: none;
-	color: #e6e6e6;
+	color: white;
 	display: block;
 }
 
@@ -151,7 +149,7 @@ body {
 
 .portfolio-button {
 	width: 100%;
-	background-color: black;
+	background-color: #999999;
 	color: #e6e6e6;
 	margin-top: 0.5em;	
 }
