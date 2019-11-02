@@ -1,22 +1,18 @@
+
 @media (min-width: 575px) {
 	html, body {
 		height: 100%;
 	}
-	
-	.footer {
-		position: absolute;
-  	    bottom: 0;
-  	    width: 100%;
-	}
 }
+
 
 body {
 	background-color: #fbfbfb;
+	display: flex;
+	flex-direction: column;
 }
 
-.max-height {
-	height: 100vh;
-}
+
 
 /* HEADER */
 .logo {
@@ -41,6 +37,11 @@ body {
 /* END HEADER */
 
 /* MAIN SECTIONS */
+.main {
+	margin-bottom: auto;
+	padding-bottom: 1em;
+}
+
 @keyframes flowInBlue {
   0% {
     transform: scale(0.1);
@@ -93,9 +94,6 @@ body {
 	}
 }
 
-.main {
-	text-align: center;
-}
 
 .colour-box {
 	color: white;
@@ -135,10 +133,9 @@ body {
 }
 
 .link-box {
-	color: white;
 	background-color: #999999;
    	text-align: center;
-   	margin-bottom: 1em;
+   	margin-top: 1em;
    	padding-top: 1em;
    	padding-bottom: 1em;
 }
@@ -217,6 +214,7 @@ ul {
 	justify-content: center;
 	padding-bottom: 1em;
 	padding-top: 1em;
+	flex-shrink: 0;
 }
 
 .footer-item {
