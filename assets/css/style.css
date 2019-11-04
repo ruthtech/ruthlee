@@ -2,7 +2,13 @@
 @media (min-width: 575px) {
 	html, body {
 		height: 100%;
+		width: 100%;
 	}
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
 }
 
 
@@ -42,7 +48,7 @@ body {
 	padding-bottom: 1em;
 }
 
-@keyframes flowInBlue {
+@keyframes flowInGreyLight {
   0% {
     transform: scale(0.1);
     opacity: 0;
@@ -52,23 +58,23 @@ body {
   100% {
     transform: scale(1);
     opacity: 1;
-    background-color: #17a2b8;
+    background-color: #cccccc;
   }
 }
 
-@keyframes flowInGreen {
+@keyframes flowInGreyMedium {
   0% {
     transform: scale(0.1);
     background-color: #fbfbfb;
   }
   100% {
     transform: scale(1);
-    background-color: #28a745;
+    background-color: #999999;
   }
 }
 
 
-@keyframes flowInRed {
+@keyframes flowInGreyDark {
   0% {
     transform: scale(0.1);
     opacity: 0;
@@ -77,77 +83,33 @@ body {
   100% {
     transform: scale(1);
     opacity: 1;
-    background-color: #dc3545;
+    background-color: #737373;
   }
 }
-
-@keyframes flowInLinks {
-	0% {
-	    transform: scale(0.1);
-	    opacity: 0;
-	    background-color: #fbfbfb;
-	}
-	100% {
-	    transform: scale(1);
-	    opacity: 1;
-	    background-color: #999999;
-	}
-}
-
 
 .colour-box {
 	color: white;
 	margin: 1em;
-	padding: 4em;
+	padding: 6em;
 	text-align: center;
 }
 
 .first {
-	animation:  flowInBlue 1s;
+	animation:  flowInGreyLight 1s;
 	animation-fill-mode: forwards;
     animation-delay: 0s;
 }
 
 .second {
-	animation:  flowInGreen 1s;
+	animation:  flowInGreyMedium 1s;
 	animation-fill-mode: forwards;
     animation-delay: 0.25s;
 }
 
 .third {
-	animation:  flowInRed 1s;
+	animation:  flowInGreyDark 1s;
 	animation-fill-mode: forwards;
     animation-delay: 0.5s;
-}
-
-.fourth {
-	animation:  flowInLinks 1s;
-	animation-fill-mode: backwards;
-    animation-delay: 0.75s;
-}
-
-.fifth {
-	animation:  flowInLinks 1s;
-	animation-fill-mode: backwards;
-    animation-delay: 1s;
-}
-
-.link-box {
-	background-color: #999999;
-   	text-align: center;
-   	margin-top: 1em;
-   	padding-top: 1em;
-   	padding-bottom: 1em;
-}
-
-.link-box a {
-	text-decoration: none;
-	color: white;
-	display: block;
-}
-
-.filler {
-	min-height: 10%;
 }
 
 .portfolio-button {
@@ -155,6 +117,13 @@ body {
 	background-color: #999999;
 	color: white;
 	margin-top: 0.5em;	
+}
+
+.equal {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  padding: 0;
 }
 
 .definition {
@@ -204,6 +173,7 @@ ul {
 	display: inline-block;
 	font-size: small;
 	padding: 0.25em;
+	font-weight: bold;
 }
 /* END MAIN SECTIONS */
 
@@ -219,6 +189,9 @@ ul {
 
 .footer-item {
 	text-align: center;
+	text-decoration: none;
+	color: #e6e6e6;
+	font-size: x-small;
 }
 
 .footer a {
