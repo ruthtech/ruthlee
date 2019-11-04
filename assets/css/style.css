@@ -26,7 +26,7 @@ body {
 }
 
 .logo-text {
-	color: lightgray;
+	color: #d9d9d9;
 	text-align: right;
 	font-size: small;
 	font-weight: bold;
@@ -90,8 +90,10 @@ body {
 .colour-box {
 	color: white;
 	margin: 1em;
-	padding: 6em;
+	padding: 4em;
 	text-align: center;
+	font-weight: bold;
+	font-size: x-large;
 }
 
 .first {
@@ -128,7 +130,7 @@ body {
 
 .definition {
 	border-bottom: solid 3px #6c757d;
-	background-color: lightgray;
+	background-color: #cccccc;
 	padding: 1em;
 }
 
@@ -138,12 +140,12 @@ body {
 }
 
 .definition-text {
-	background-color: lightgray;
+	background-color: #cccccc;
 	padding: 1em;
 }
 
 h1 {
-	color: lightgray;
+	color: #e6e6e6;
 }
 
 ul {
