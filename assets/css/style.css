@@ -26,15 +26,12 @@ body {
 }
 
 .logo-text {
-	color: #d9d9d9;
-	text-align: right;
+	color: #f2f2f2;
 	font-size: small;
 	font-weight: bold;
 	font-style: italic;
 	vertical-align: bottom;
 	display: inline-block;
-	padding-top: 3em;
-	padding-bottom: 0.25em;
 }
 
 .strikethrough {
@@ -145,7 +142,7 @@ body {
 }
 
 h1 {
-	color: #e6e6e6;
+	color: #f2f2f2;
 }
 
 ul {
