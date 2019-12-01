@@ -138,22 +138,13 @@ body {
 }
 
 .definition-header {
-	margin: 1rem 10rem;
-}
-
-.definition, .definition-text {
-	background-color: #cecfcf;
-	padding: 1em;
-	margin: 0 0rem;
-	border-radius: .25rem;
+	margin: 1rem 1rem;
 }
 
 .definition {
-	border-bottom: solid 3px #323232;
-}
-
-.definition-text {
-	margin-bottom: 1.5rem;
+	background-color: #cecfcf;
+	padding: 1em;
+	border-radius: .25rem;
 }
 
 .definition h1 {
