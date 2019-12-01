@@ -137,10 +137,14 @@ body {
 	border-color: #6c757d!important;
 }
 
+.definition-header {
+	margin: 1rem 10rem;
+}
+
 .definition, .definition-text {
 	background-color: #cecfcf;
 	padding: 1em;
-	margin: 0 2rem;
+	margin: 0 0rem;
 	border-radius: .25rem;
 }
 
