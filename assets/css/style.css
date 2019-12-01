@@ -13,7 +13,7 @@ html, body {
 
 
 body {
-	background-color: #000000;
+	background-color: #323232;
 	display: flex;
 	flex-direction: column;
 }
@@ -22,11 +22,11 @@ body {
 
 /* HEADER */
 .logo {
-	background-color: black;	
+	background-color: #323232;	
 }
 
 .logo-text {
-	color: #f2f2f2;
+	color: #d1d1d1;
 	font-size: small;
 	font-weight: bold;
 	font-style: italic;
@@ -49,7 +49,7 @@ body {
   0% {
     transform: scale(0.1);
     opacity: 0;
-    background-color: #fbfbfb;
+    background-color: #323232;
     
   }
   100% {
@@ -62,7 +62,7 @@ body {
 @keyframes flowInGreyMedium {
   0% {
     transform: scale(0.1);
-    background-color: #fbfbfb;
+    background-color: #323232;
   }
   100% {
     transform: scale(1);
@@ -75,7 +75,7 @@ body {
   0% {
     transform: scale(0.1);
     opacity: 0;
-    background-color: #fbfbfb;
+    background-color: #323232;
   }
   100% {
     transform: scale(1);
@@ -113,22 +113,43 @@ body {
 
 .portfolio-button {
 	width: 100%;
-	background-color: #999999;
-	color: white;
+	background-color: #cccccc;
+	color: black;
 	margin-top: 0.5em;	
+	font-weight: 400;
 }
 
 .equal {
   display: flex;
   display: -webkit-flex;
   flex-wrap: wrap;
-  padding: 0;
+  padding: 0 1rem;
+}
+
+.section-header {
+	margin: 1rem .25rem 0 .25rem;
+}
+
+.skills-card {
+	width: 100%;
+	margin-bottom: .5rem;
+	background-color: #cecfcf;
+	border-color: #6c757d!important;
+}
+
+.definition, .definition-text {
+	background-color: #cecfcf;
+	padding: 1em;
+	margin: 0 2rem;
+	border-radius: .25rem;
 }
 
 .definition {
-	border-bottom: solid 3px #6c757d;
-	background-color: #cccccc;
-	padding: 1em;
+	border-bottom: solid 3px #323232;
+}
+
+.definition-text {
+	margin-bottom: 1.5rem;
 }
 
 .definition h1 {
@@ -136,13 +157,9 @@ body {
 	color: black;
 }
 
-.definition-text {
-	background-color: #cccccc;
-	padding: 1em;
-}
-
 h1 {
-	color: #f2f2f2;
+	color: #d1d1d1;
+	margin: 
 }
 
 ul {
@@ -160,7 +177,7 @@ ul {
 
 /* FOOTER */
 .footer {
-	background-color: black;
+	background-color: #272727;
 	justify-content: center;
 	padding-bottom: 1em;
 	padding-top: 1em;
