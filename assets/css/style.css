@@ -111,6 +111,19 @@ body {
     animation-delay: 1s;
 }
 
+.portfolio-header {
+	background-color: #cccccc;
+	color: black;
+	text-align: center!important;
+	margin-bottom: 0;
+}
+
+.portfolio-header > h5 {
+	margin-bottom: 0;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
 .portfolio-button {
 	width: 100%;
 	background-color: #cccccc;
@@ -138,12 +151,12 @@ body {
 }
 
 .definition-header {
-	margin: 1rem 1rem;
+	margin: 0rem 1rem 1rem 1rem;
 }
 
 .definition {
 	background-color: #cecfcf;
-	padding: 1em;
+	padding: 0.25em;
 	border-radius: .25rem;
 }
 
