@@ -1,39 +1,43 @@
 import React from "react";
 
 function ProjectCard(props) {
+  console.log(props);
+
   return (
-    <div class="col-12 col-sm-4 equal">
-      <div class="card mb-3 border-secondary box">
-        <div class="card-header portfolio-header">
-          <h5 class="card-title">{props.title}</h5>
-        </div>
-        <div class="card-body pb-0 text-white bg-success ">
-          <p class="card-text">{props.summary}</p>
-          <ul class="project-skills">
-            {props.skills.map(skill => {
-              return <li>{skill}</li>;
-            })}
-          </ul>
-        </div>
-        <div class="card-text mt-auto p-3 text-white bg-success ">
-          <button
-            type="button"
-            class="btn portfolio-button"
-            onclick="window.location='{props.github}'"
-          >
-            See the code
-          </button>
-          <button
-            type="button"
-            class="btn portfolio-button"
-            onclick="window.location='{props.heroku}'"
-          >
-            View live demo
-          </button>
+    props.projects.map( (project) => {
+    return (
+      <div className="col-12 col-sm-4 ">
+        <div className="card mb-3 border-secondary box">
+          <div className="card-header portfolio-header">
+            <h5 className="card-title">{project.title}</h5>
+          </div>
+          <div className="card-body pb-0 text-white bg-first ">
+            <p className="card-text">{project.summary}</p>
+            <ul className="project-skills">
+              {project.skills.map(skill => {
+                return <li>{skill}</li>;
+              })}
+            </ul>
+          </div>
+          <div className="card-text mt-auto p-3 text-white bg-first ">
+            <button
+              type="button"
+              className="btn portfolio-button"
+              onClick={() => {window.location=project.github}}
+            >
+              See the code
+            </button>
+            <button
+              type="button"
+              className="btn portfolio-button"
+              onClick={() => {window.location=project.heroku}}
+            >
+              View live demo
+            </button>
+          </div>
         </div>
       </div>
-    </div>
-  );
+    )}));
 }
 
 export default ProjectCard;

@@ -15,15 +15,6 @@ function Home() {
           <div className="colour-box third">Code</div>
         </div>
       </div>
-      <div className="row">
-        <button type="button">View my portfolio</button>
-      </div>
-      <div className="row">
-        <button type="button">View my GitHub</button>
-      </div>
-      <div className="row">
-        <button type="button">Contact me via LinkedIn</button>
-      </div>
     </div>
   );
 }

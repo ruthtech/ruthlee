@@ -24,7 +24,8 @@ function About() {
               testing, worked with JAWS for accessibility testing, managed
               software development teams, project managed two Eclipse projects
               (both archived now). I've just completed a bootcamp
-              that taught me Full Stack Web Development.
+              that taught me Full Stack Web Development 
+              (JavaScript, jQuery, Node, Express, React, MySQL, MongoDB, Mongoose).
             </p>
           </div>
         </div>
