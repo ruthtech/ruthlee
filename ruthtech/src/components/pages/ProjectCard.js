@@ -11,7 +11,7 @@ function ProjectCard(props) {
           <div className="card-header portfolio-header">
             <h5 className="card-title">{project.title}</h5>
           </div>
-          <div className="card-body pb-0 text-white bg-first ">
+          <div className="card-body pb-0 text-white bg-medium ">
             <p className="card-text">{project.summary}</p>
             <ul className="project-skills">
               {project.skills.map(skill => {
@@ -19,7 +19,7 @@ function ProjectCard(props) {
               })}
             </ul>
           </div>
-          <div className="card-text mt-auto p-3 text-white bg-first ">
+          <div className="card-text mt-auto p-3 text-white bg-medium ">
             <button
               type="button"
               className="btn portfolio-button"
