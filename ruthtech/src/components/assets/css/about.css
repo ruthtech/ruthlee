@@ -1,0 +1,94 @@
+/* This CSS is for the animations used on the About page.
+   (Write clear code)
+ */
+@keyframes flowInGreyLight {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+	background-color: #F2F2F2;
+	color: #F2F2F2;
+    
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+	background-color: #8AA6BF;
+	color: white;
+  }
+}
+
+@keyframes flowInGreyMedium {
+  0% {
+    transform: scale(0.1);
+	background-color: #F2F2F2;
+	opacity: 0;
+	color: #F2F2F2;
+  }
+  100% {
+    transform: scale(1);
+	background-color: #5E728C;
+	opacity: 1;
+	color: white;
+  }
+}
+
+@keyframes flowInGreyDark {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+	background-color: #F2F2F2;
+	color: #F2F2F2;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+	background-color: #403C3F;
+	color: white;
+  }
+}
+
+.colour-box {
+	color: white;
+	margin: 1rem;
+	padding: 4rem;
+	text-align: center;
+	font-weight: bold;
+	font-size: x-large;
+	border-radius: 15px;
+}
+
+.first {
+	animation:  flowInGreyLight 1s;
+	animation-fill-mode: forwards;
+    animation-delay: 0s;
+}
+
+.second {
+	animation:  flowInGreyMedium 1s;
+	animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+.third {
+	animation:  flowInGreyDark 1s;
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+.skills-card {
+	width: 100%;
+	margin-bottom: .5rem;
+	/* background-color: #cecfcf;
+	border-color: #6c757d!important; */
+	border-radius: 15px!important;
+}
+
+.skills-title {
+	font-weight: bold;
+	font-size: large;
+	margin-bottom: 0!important;
+}
+
+.skills-body {
+	border-radius: 0 0 15px 15px!important;
+}
