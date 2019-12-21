@@ -72,7 +72,6 @@ function ListLogins(props) {
       );
     }
   };
-  console.log(loginDiv);
 
   return (
     <div>{loginDiv()}</div>
