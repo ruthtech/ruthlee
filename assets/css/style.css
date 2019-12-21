@@ -150,25 +150,17 @@ body {
 	border-color: #6c757d!important;
 }
 
-.definition-header {
-	margin: 0rem 1rem 1rem 1rem;
-}
-
 .definition {
 	background-color: #cecfcf;
 	padding: 0.25em;
 	border-radius: .25rem;
 }
 
-.definition h1 {
-	font-weight: bold;
-	color: black;
-}
-
 h1 {
 	color: #d1d1d1;
-	margin: 
 }
+
+
 
 ul {
 	padding: 0em;
