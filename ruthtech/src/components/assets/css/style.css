@@ -4,6 +4,11 @@ html, body, #root, .full-screen {
 	width: 100%;
 }
 
+.full-screen {
+	display: flex;
+	flex-direction: column;
+}
+
 body {
 	background-color: #F2F2F2!important;
 	display: flex;

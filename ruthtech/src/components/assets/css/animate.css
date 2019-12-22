@@ -1,0 +1,14 @@
+@keyframes drawLine {
+  to {
+	  stroke-dashoffset: 0;
+  }
+}
+
+.signature {
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: drawLine 3s linear forwards;
+	width: auto; 
+	height: 150px; 
+	 /* Original scale was 150px high by 247px wide  */
+}
