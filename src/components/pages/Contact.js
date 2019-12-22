@@ -4,8 +4,8 @@ import Logo from '../assets/media/ruthtech.svg';
 
 function Contact(props) {
   return (
-    <div className="container-fluid">
-      <div className="row justify-content-center d-flex">
+    <div className="container-fluid d-flex align-items-center h-100">
+      <div className="row justify-content-center d-flex w-100">
         <div className="col-12 col-sm-8">
           <div className="definition box">
             <h5 className="text-center mb-3">Contact Me</h5>

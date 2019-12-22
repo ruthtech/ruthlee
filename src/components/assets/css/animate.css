@@ -12,3 +12,9 @@
 	height: 150px; 
 	 /* Original scale was 150px high by 247px wide  */
 }
+
+.expand {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 10;
+}
