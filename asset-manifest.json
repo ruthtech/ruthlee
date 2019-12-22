@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ruthtech/static/css/main.d52880f5.chunk.css",
+    "main.js": "/ruthtech/static/js/main.1699d709.chunk.js",
+    "main.js.map": "/ruthtech/static/js/main.1699d709.chunk.js.map",
+    "runtime-main.js": "/ruthtech/static/js/runtime-main.6b5ed454.js",
+    "runtime-main.js.map": "/ruthtech/static/js/runtime-main.6b5ed454.js.map",
+    "static/css/2.7ae81bb1.chunk.css": "/ruthtech/static/css/2.7ae81bb1.chunk.css",
+    "static/js/2.bbbf0485.chunk.js": "/ruthtech/static/js/2.bbbf0485.chunk.js",
+    "static/js/2.bbbf0485.chunk.js.map": "/ruthtech/static/js/2.bbbf0485.chunk.js.map",
+    "index.html": "/ruthtech/index.html",
+    "precache-manifest.51743a16fc58b25713d205f6285ef83b.js": "/ruthtech/precache-manifest.51743a16fc58b25713d205f6285ef83b.js",
+    "service-worker.js": "/ruthtech/service-worker.js",
+    "static/css/2.7ae81bb1.chunk.css.map": "/ruthtech/static/css/2.7ae81bb1.chunk.css.map",
+    "static/css/main.d52880f5.chunk.css.map": "/ruthtech/static/css/main.d52880f5.chunk.css.map",
+    "static/js/2.bbbf0485.chunk.js.LICENSE": "/ruthtech/static/js/2.bbbf0485.chunk.js.LICENSE",
+    "static/media/employee-tracker.gif": "/ruthtech/static/media/employee-tracker.23bd4d59.gif",
+    "static/media/all.min.css": "/ruthtech/static/media/fa-solid-900.f6121be5.woff2",
+    "static/media/ruthtech.svg": "/ruthtech/static/media/ruthtech.da12427d.svg",
+    "static/media/toronto-min.jpg": "/ruthtech/static/media/toronto-min.78bf90c4.jpg",
+    "static/media/trusael-min.jpg": "/ruthtech/static/media/trusael-min.ec38234d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6b5ed454.js",
+    "static/css/2.7ae81bb1.chunk.css",
+    "static/js/2.bbbf0485.chunk.js",
+    "static/css/main.d52880f5.chunk.css",
+    "static/js/main.1699d709.chunk.js"
+  ]
+}
