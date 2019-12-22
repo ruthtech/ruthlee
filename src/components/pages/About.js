@@ -7,18 +7,18 @@ function About() {
     <div className="container-fluid">
       <div className="row main">
         <div className="col-12 col-sm-4">
-          <div className="colour-box first">Write</div>
+          <div className="colour-box bg-lightBlue">Write</div>
         </div>
         <div className="col-12 col-sm-4">
-          <div className="colour-box second">Organize</div>
+          <div className="colour-box bg-mediumBlue">Organize</div>
         </div>
         <div className="col-12 col-sm-4">
-          <div className="colour-box third">Code</div>
+          <div className="colour-box bg-darkBlue">Code</div>
         </div>
       </div>
       <div className="row justify-content-center d-flex">
         <div className="col-12 col-sm-8">
-          <div className="definition box">
+          <div className="definition box first">
             <h5 className="text-center mb-3">I get things done.</h5>
             <p>
               While I stayed home to raise my children I volunteered at their

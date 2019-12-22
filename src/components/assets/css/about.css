@@ -1,52 +1,3 @@
-/* This CSS is for the animations used on the About page.
-   (Write organize code)
- */
-@keyframes flowInGreyLight {
-  0% {
-    transform: scale(0.1);
-    opacity: 0;
-	background-color: #F2F2F2;
-	color: #F2F2F2;
-    
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-	background-color: #8AA6BF;
-	color: white;
-  }
-}
-
-@keyframes flowInGreyMedium {
-  0% {
-    transform: scale(0.1);
-	background-color: #F2F2F2;
-	opacity: 0;
-	color: #F2F2F2;
-  }
-  100% {
-    transform: scale(1);
-	background-color: #5E728C;
-	opacity: 1;
-	color: white;
-  }
-}
-
-@keyframes flowInGreyDark {
-  0% {
-    transform: scale(0.1);
-    opacity: 0;
-	background-color: #F2F2F2;
-	color: #F2F2F2;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-	background-color: #403C3F;
-	color: white;
-  }
-}
-
 .colour-box {
 	color: white;
 	margin: 1rem;
@@ -57,22 +8,21 @@
 	border-radius: 15px;
 }
 
+@keyframes flowInMainBox {
+	0% {
+	  transform: scale(0.1);
+	  opacity: 0;
+	}
+	100% {
+	  transform: scale(1);
+	  opacity: 1;
+	}
+}
+
 .first {
-	animation:  flowInGreyLight 1s;
+	animation:  flowInMainBox 2s;
 	animation-fill-mode: forwards;
     animation-delay: 0s;
-}
-
-.second {
-	animation:  flowInGreyMedium 1s;
-	animation-fill-mode: forwards;
-    animation-delay: 0.5s;
-}
-
-.third {
-	animation:  flowInGreyDark 1s;
-	animation-fill-mode: forwards;
-    animation-delay: 1s;
 }
 
 .skills-card {
