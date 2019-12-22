@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../assets/css/style.css";
 import PrjImg0 from '../assets/media/trusael-min.jpg';
 import PrjImg1 from '../assets/media/toronto-min.jpg';
-import PrjImg2 from '../assets/media/employee-tracker.gif';
+import PrjImg2 from '../assets/media/employee-tracker.png';
 
 function Home() {
   const [activeProjectIndex, setActiveProjectIndex] = useState(0); // Default to projects[0]
@@ -49,10 +49,10 @@ function Home() {
 
   return (
     <div className="container-fluid">
-      <div className="row display-flex">
+      <div className="row">
         <ProjectDetails project={projects[activeProjectIndex]} />
       </div>
-      <div className="row display-flex bottom-row">
+      <div className="row">
         <ProjectCard projects={projects}/>
       </div>
     </div>
@@ -82,7 +82,10 @@ function ProjectDetails(props) {
   let imageName = "PrjImg" + props.project.index;
 
   return (
-    <div className="details definition d-flex">
+    <div className="details definition details-flex">
+      <div className="col-12 col-sm-7">
+        <img src={props.project.image[imageName]} alt={props.project.title} className="details-image"/>
+      </div>
       <div className="col-12 col-sm-5 details-text">
         <h2>{props.project.title}</h2>
         <p>{props.project.summary}</p>
@@ -108,10 +111,6 @@ function ProjectDetails(props) {
             </button>
           </div>
         </div>
-      </div>
-      <div className="col-12 col-sm-7 details-image">
-        {/* <img src={require(props.project.image)} alt={props.project.title} /> */}
-        <img src={props.project.image[imageName]} alt={props.project.title} />
       </div>
     </div>
   );

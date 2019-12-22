@@ -40,6 +40,10 @@ body {
 		margin-top: 1rem!important;
 		border-left: 1px solid #F2F2F2;
 	}
+
+	.details-flex {
+		flex-direction: column;
+	}
 }
 
 @media (min-width: 576px) {
@@ -68,6 +72,11 @@ body {
 
 	.nav-item {
 		margin-top: auto!important;
+	}
+
+	.details-flex {
+		display: flex;
+		flex-direction: row;
 	}
 }
 
@@ -173,9 +182,10 @@ body {
 	margin-right: 1rem!important;
 }
 
-.details-image > img {
+.details-image {
 	/* height: 100%; */
 	width: 100%;
+	/* height: auto; */
 }
 
 .definition {
@@ -218,8 +228,6 @@ ul {
 	padding-bottom: 1em;
 	padding-top: 1em;
 	flex-shrink: 0;
-	/* position: fixed;
-	bottom: 0;  */
 	width: 100wh;
 	margin-left: 0!important;
 	margin-right: 0!important;
