@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "92da922956428a221bda1a4183dc24d4",
+    "revision": "c8f9a813c7dc04d11ce19a169ecb7973",
     "url": "/ruthtech/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ruthtech/static/css/2.7ae81bb1.chunk.css"
   },
   {
-    "revision": "fbcb4db92d50bb2f8e82",
-    "url": "/ruthtech/static/css/main.d52880f5.chunk.css"
+    "revision": "9e098ba04a1de5147547",
+    "url": "/ruthtech/static/css/main.6e773320.chunk.css"
   },
   {
     "revision": "d404f0d7dabe7403350f",
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ruthtech/static/js/2.bbbf0485.chunk.js.LICENSE"
   },
   {
-    "revision": "fbcb4db92d50bb2f8e82",
-    "url": "/ruthtech/static/js/main.296139a5.chunk.js"
+    "revision": "9e098ba04a1de5147547",
+    "url": "/ruthtech/static/js/main.70eb339b.chunk.js"
   },
   {
     "revision": "6cd7edb058c8c108c552",
     "url": "/ruthtech/static/js/runtime-main.6b5ed454.js"
   },
   {
-    "revision": "23bd4d5986b370f78e76a13b77726948",
-    "url": "/ruthtech/static/media/employee-tracker.23bd4d59.gif"
+    "revision": "34b9e6cc2b2769a2e477f25da7f63958",
+    "url": "/ruthtech/static/media/employee-tracker.34b9e6cc.png"
   },
   {
     "revision": "088a34f78f530102fd9661173b4a4f26",

@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ruthtech/static/css/main.d52880f5.chunk.css",
-    "main.js": "/ruthtech/static/js/main.296139a5.chunk.js",
-    "main.js.map": "/ruthtech/static/js/main.296139a5.chunk.js.map",
+    "main.css": "/ruthtech/static/css/main.6e773320.chunk.css",
+    "main.js": "/ruthtech/static/js/main.70eb339b.chunk.js",
+    "main.js.map": "/ruthtech/static/js/main.70eb339b.chunk.js.map",
     "runtime-main.js": "/ruthtech/static/js/runtime-main.6b5ed454.js",
     "runtime-main.js.map": "/ruthtech/static/js/runtime-main.6b5ed454.js.map",
     "static/css/2.7ae81bb1.chunk.css": "/ruthtech/static/css/2.7ae81bb1.chunk.css",
     "static/js/2.bbbf0485.chunk.js": "/ruthtech/static/js/2.bbbf0485.chunk.js",
     "static/js/2.bbbf0485.chunk.js.map": "/ruthtech/static/js/2.bbbf0485.chunk.js.map",
     "index.html": "/ruthtech/index.html",
-    "precache-manifest.eb17b58df9a9e12de10fa2ea49b9abfe.js": "/ruthtech/precache-manifest.eb17b58df9a9e12de10fa2ea49b9abfe.js",
+    "precache-manifest.1eb258a3399481534d8232c5435b5fb2.js": "/ruthtech/precache-manifest.1eb258a3399481534d8232c5435b5fb2.js",
     "service-worker.js": "/ruthtech/service-worker.js",
     "static/css/2.7ae81bb1.chunk.css.map": "/ruthtech/static/css/2.7ae81bb1.chunk.css.map",
-    "static/css/main.d52880f5.chunk.css.map": "/ruthtech/static/css/main.d52880f5.chunk.css.map",
+    "static/css/main.6e773320.chunk.css.map": "/ruthtech/static/css/main.6e773320.chunk.css.map",
     "static/js/2.bbbf0485.chunk.js.LICENSE": "/ruthtech/static/js/2.bbbf0485.chunk.js.LICENSE",
-    "static/media/employee-tracker.gif": "/ruthtech/static/media/employee-tracker.23bd4d59.gif",
+    "static/media/employee-tracker.png": "/ruthtech/static/media/employee-tracker.34b9e6cc.png",
     "static/media/all.min.css": "/ruthtech/static/media/fa-solid-900.f6121be5.woff2",
     "static/media/ruthtech.svg": "/ruthtech/static/media/ruthtech.da12427d.svg",
     "static/media/toronto-min.jpg": "/ruthtech/static/media/toronto-min.78bf90c4.jpg",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.6b5ed454.js",
     "static/css/2.7ae81bb1.chunk.css",
     "static/js/2.bbbf0485.chunk.js",
-    "static/css/main.d52880f5.chunk.css",
-    "static/js/main.296139a5.chunk.js"
+    "static/css/main.6e773320.chunk.css",
+    "static/js/main.70eb339b.chunk.js"
   ]
 }
