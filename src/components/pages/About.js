@@ -31,7 +31,7 @@ function About() {
               I've coded, tested, built, liaisoned, managed, project managed, and worked
               on teams that spanned companies and continents. Having just completed a bootcamp
               that taught me Full Stack Web Development, I will continue to learn new technologies
-              and solve problems.
+              and solve problems. I am a full stack developer with an emphasis on backend.
             </p>
           </div>
         </div>
@@ -47,7 +47,7 @@ function About() {
 const skillSets = [
   {
     title: "Tests and Tools",
-    skills: ["Git", "JUnit", "JEST", "Visual Code", "Figma"],
+    skills: ["Git", "JUnit", "JEST", "Visual Code", "Eclipse"],
     skillColour: 'bg-lightBlue'
   },
   {
