@@ -218,6 +218,11 @@ ul {
 .project-skills li {
 	font-weight: bold;
 }
+
+.active {
+	font-weight: bold;
+}
+
 /* END MAIN SECTIONS */
 
 
@@ -228,7 +233,6 @@ ul {
 	padding-bottom: 1em;
 	padding-top: 1em;
 	flex-shrink: 0;
-	width: 100wh;
 	margin-left: 0!important;
 	margin-right: 0!important;
 	text-align: center;

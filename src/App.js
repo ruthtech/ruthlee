@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div className="full-screen">
         <NavTabs />
-        <Route exact path={["/", "/ruthtech"]} component={Home} />
+        <Route exact path={["/", "/ruthtech", ""]} component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Footer />

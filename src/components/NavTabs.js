@@ -9,7 +9,7 @@ function NavTabs() {
       <ul className="nav nav-bar">
         <li className="col-12 col-sm-2 nav-item logo-block">
           <div>
-            <a href="/"><img src={Logo} alt="Ruth Lee Logo" className="logo"/></a>
+            <a href="/ruthtech"><img src={Logo} alt="Ruth Lee Logo" className="logo"/></a>
           </div>
 	  		  <div className="logo-text">
 		  		  Get things done.
@@ -17,9 +17,9 @@ function NavTabs() {
         </li>
         <li className="nav-item nav-tab">
           <Link
-            to="/"
+            to="/ruthtech"
             className={
-              window.location.pathname === "/" ? "nav-link active" : "nav-link"
+              window.location.pathname === "/ruthtech" ? "nav-link active" : "nav-link"
             }>
             Home
           </Link>
