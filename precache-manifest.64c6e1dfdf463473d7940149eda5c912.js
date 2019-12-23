@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c8f9a813c7dc04d11ce19a169ecb7973",
+    "revision": "85529c879da949b385cbf898fbf68ef1",
     "url": "/ruthtech/index.html"
   },
   {
-    "revision": "d404f0d7dabe7403350f",
+    "revision": "4c0a55801119d746bf79",
     "url": "/ruthtech/static/css/2.7ae81bb1.chunk.css"
   },
   {
-    "revision": "9e098ba04a1de5147547",
-    "url": "/ruthtech/static/css/main.6e773320.chunk.css"
+    "revision": "1a70f9dd18a235981378",
+    "url": "/ruthtech/static/css/main.77522dbc.chunk.css"
   },
   {
-    "revision": "d404f0d7dabe7403350f",
-    "url": "/ruthtech/static/js/2.bbbf0485.chunk.js"
+    "revision": "4c0a55801119d746bf79",
+    "url": "/ruthtech/static/js/2.e77c0e6c.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/ruthtech/static/js/2.bbbf0485.chunk.js.LICENSE"
+    "url": "/ruthtech/static/js/2.e77c0e6c.chunk.js.LICENSE"
   },
   {
-    "revision": "9e098ba04a1de5147547",
-    "url": "/ruthtech/static/js/main.70eb339b.chunk.js"
+    "revision": "1a70f9dd18a235981378",
+    "url": "/ruthtech/static/js/main.0e36c0d9.chunk.js"
   },
   {
     "revision": "6cd7edb058c8c108c552",
