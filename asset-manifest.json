@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ruthtech/static/css/main.77522dbc.chunk.css",
-    "main.js": "/ruthtech/static/js/main.ed0f5cc6.chunk.js",
-    "main.js.map": "/ruthtech/static/js/main.ed0f5cc6.chunk.js.map",
+    "main.css": "/ruthtech/static/css/main.aa32bd18.chunk.css",
+    "main.js": "/ruthtech/static/js/main.782ef07a.chunk.js",
+    "main.js.map": "/ruthtech/static/js/main.782ef07a.chunk.js.map",
     "runtime-main.js": "/ruthtech/static/js/runtime-main.6b5ed454.js",
     "runtime-main.js.map": "/ruthtech/static/js/runtime-main.6b5ed454.js.map",
     "static/css/2.17e5ed98.chunk.css": "/ruthtech/static/css/2.17e5ed98.chunk.css",
-    "static/js/2.1d279576.chunk.js": "/ruthtech/static/js/2.1d279576.chunk.js",
-    "static/js/2.1d279576.chunk.js.map": "/ruthtech/static/js/2.1d279576.chunk.js.map",
+    "static/js/2.26c681cb.chunk.js": "/ruthtech/static/js/2.26c681cb.chunk.js",
+    "static/js/2.26c681cb.chunk.js.map": "/ruthtech/static/js/2.26c681cb.chunk.js.map",
     "index.html": "/ruthtech/index.html",
-    "precache-manifest.70007299efb191c6d4c8df0dbf5ee4ec.js": "/ruthtech/precache-manifest.70007299efb191c6d4c8df0dbf5ee4ec.js",
+    "precache-manifest.7fa124b170b728e2cee69f3621fd67e8.js": "/ruthtech/precache-manifest.7fa124b170b728e2cee69f3621fd67e8.js",
     "service-worker.js": "/ruthtech/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/ruthtech/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.77522dbc.chunk.css.map": "/ruthtech/static/css/main.77522dbc.chunk.css.map",
-    "static/js/2.1d279576.chunk.js.LICENSE": "/ruthtech/static/js/2.1d279576.chunk.js.LICENSE",
+    "static/css/main.aa32bd18.chunk.css.map": "/ruthtech/static/css/main.aa32bd18.chunk.css.map",
+    "static/js/2.26c681cb.chunk.js.LICENSE": "/ruthtech/static/js/2.26c681cb.chunk.js.LICENSE",
     "static/media/employee-tracker.png": "/ruthtech/static/media/employee-tracker.34b9e6cc.png",
     "static/media/ruthtech.svg": "/ruthtech/static/media/ruthtech.da12427d.svg",
     "static/media/toronto-min.jpg": "/ruthtech/static/media/toronto-min.78bf90c4.jpg",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.6b5ed454.js",
     "static/css/2.17e5ed98.chunk.css",
-    "static/js/2.1d279576.chunk.js",
-    "static/css/main.77522dbc.chunk.css",
-    "static/js/main.ed0f5cc6.chunk.js"
+    "static/js/2.26c681cb.chunk.js",
+    "static/css/main.aa32bd18.chunk.css",
+    "static/js/main.782ef07a.chunk.js"
   ]
 }
