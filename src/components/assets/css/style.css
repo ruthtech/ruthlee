@@ -195,11 +195,6 @@ body {
 	box-shadow: 0 0 15px #403C3F; 
 }
 
-h1 {
-	color: #d1d1d1;
-	margin: 0;
-}
-
 ul {
 	padding: 0em;
 }
@@ -219,9 +214,6 @@ ul {
 	font-weight: bold;
 }
 
-.active {
-	font-weight: bold;
-}
 
 /* END MAIN SECTIONS */
 

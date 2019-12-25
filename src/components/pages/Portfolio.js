@@ -1,12 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import "../assets/css/style.css";
 import PrjImg0 from '../assets/media/trusael-min.jpg';
 import PrjImg1 from '../assets/media/toronto-min.jpg';
 import PrjImg2 from '../assets/media/employee-tracker.png';
 
-function Home() {
-  const [activeProjectIndex, setActiveProjectIndex] = useState(0); // Default to projects[0]
-
+function Portfolio() {
   const projects = [
     {
       title: "TrusÆL Online Marketplace", 
@@ -20,7 +18,6 @@ function Home() {
         {title: "Agent", userid: "abbybanksy@broker.ca", password: "password"},
         {title: "Seller", userid: "louiekritski@fake.com", password: "password"}
       ],
-      setActiveProjectIndex: setActiveProjectIndex,
       index: 0
     },
     {
@@ -31,7 +28,6 @@ function Home() {
       heroku: "https://ruthtech.github.io/torontoAreaResources",
       colour: "bg-mediumBlue",
       image: {PrjImg1},
-      setActiveProjectIndex: setActiveProjectIndex,
       index: 1
     },
     {
@@ -42,7 +38,6 @@ function Home() {
       heroku: "https://github.com/ruthtech/employee-tracker/blob/master/employee-tracker.gif",
       colour: "bg-darkBlue",
       image: {PrjImg2},
-      setActiveProjectIndex: setActiveProjectIndex,
       index: 2
     }
   ];
@@ -50,10 +45,16 @@ function Home() {
   return (
     <div className="container-fluid">
       <div className="row">
-        <ProjectDetails project={projects[activeProjectIndex]} />
+        <div className="col">
+          <h6 className="mt-3">The projects on this page demonstrate a variety of roles: full stack, working with maps, and a command line application.</h6>
+        </div>
       </div>
       <div className="row">
-        <ProjectCard projects={projects}/>
+        {
+        projects.map( (aProject) => {
+          return <ProjectDetails project={aProject} />
+        })
+        }
       </div>
     </div>
   );
@@ -116,38 +117,4 @@ function ProjectDetails(props) {
   );
 }
 
-function ProjectCard(props) {
-  return (
-    props.projects.map( (project, index) => {
-    return (
-      <div className="col-12 col-sm-4 mt-3" key={'project'+index} onClick={() => {project.setActiveProjectIndex(project.index)}}>
-        <div className="card card-portfolio box">
-          <div className="card-header portfolio-header">
-            <h5 className="card-title">{project.title}</h5>
-          </div>
-          <div className={"card-body " + project.colour}>
-            <p className="card-text">{project.summary}</p>
-          </div>
-          <div className={"card-buttons " + project.colour}>
-            <button
-              type="button"
-              className="btn portfolio-button"
-              onClick={() => {window.location=project.github}}
-            >
-              See the code
-            </button>
-            <button
-              type="button"
-              className="btn portfolio-button"
-              onClick={() => {window.location=project.heroku}}
-            >
-              View demo
-            </button>
-          </div>
-        </div>
-      </div>
-    )}));
-}
-
-
-export default Home;
+export default Portfolio;

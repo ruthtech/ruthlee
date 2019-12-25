@@ -57,7 +57,7 @@ const skillSets = [
   },
   {
     title: "Programming",
-    skills: ["JavaScript", "Java", "SQL", "React", "Node"],
+    skills: ["Java", "JavaScript", "SQL", "React", "Node"],
     skillColour: 'bg-darkBlue'
   }
 ];
