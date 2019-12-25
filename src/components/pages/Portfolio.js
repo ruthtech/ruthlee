@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/css/style.css";
 import PrjImg0 from '../assets/media/trusael-min.jpg';
-import PrjImg1 from '../assets/media/toronto-min.jpg';
+import PrjImg1 from '../assets/media/torontoarearesources-min.png';
 import PrjImg2 from '../assets/media/employee-tracker.png';
 
 function Portfolio() {
@@ -51,8 +51,8 @@ function Portfolio() {
       </div>
       <div className="row">
         {
-        projects.map( (aProject) => {
-          return <ProjectDetails project={aProject} />
+        projects.map( (aProject, index) => {
+          return <ProjectDetails key={'projectdetails'+index} project={aProject} />
         })
         }
       </div>
