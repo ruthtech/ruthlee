@@ -21,17 +21,17 @@ function About() {
           <div className="definition box first">
             <h5 className="text-center mb-3">I get things done.</h5>
             <p>
-              While I stayed home to raise my children I volunteered at their
-              school regularly. We submitted grant applications, 
-              wrote social media for Council,
-              served pizza lunch to over 730 kids, and worked with the TDSB to get
-              Kindergarten yards repaired.
-            </p>
-            <p>
               I've coded, tested, built, liaisoned, managed, project managed, and worked
               on teams that spanned companies and continents. Having just completed a bootcamp
               that taught me Full Stack Web Development, I will continue to learn new technologies
-              and solve problems. I am a full stack developer with an emphasis on backend.
+              and solve problems.
+            </p>
+            <p>
+              I am returning to work after a 10 year career break. While on break I volunteered 
+              at my children's school regularly. Some highlights include working on teams that 
+              raised over $10K per school year, writing social media for Council (WordPress, 
+              Facebook, MailChimp, SurveyMonkey, Twitter), and working with the TDSB to repair 
+              and replace Kindergarten yards.
             </p>
           </div>
         </div>
