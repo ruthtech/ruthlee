@@ -1,8 +1,8 @@
 import React from "react";
 import "../assets/css/style.css";
 import PrjImg0 from '../assets/media/trusael-min.jpg';
-import PrjImg1 from '../assets/media/torontoarearesources-min.png';
-import PrjImg2 from '../assets/media/employee-tracker.png';
+import PrjImg1 from '../assets/media/torontoarearesources-min.jpg';
+import PrjImg2 from '../assets/media/employee-tracker-min.jpg';
 
 function Portfolio() {
   const projects = [
