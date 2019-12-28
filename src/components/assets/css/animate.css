@@ -1,16 +1,35 @@
 @keyframes drawLine {
-  to {
-	  stroke-dashoffset: 0;
-  }
+	to {
+		stroke-dashoffset: 0;
+	}
 }
 
-.signature {
-	stroke-dasharray: 1000;
-	stroke-dashoffset: 1000;
-	animation: drawLine 3s linear forwards;
-	width: auto; 
-	height: 150px; 
-	 /* Original scale was 150px high by 247px wide  */
+svg {
+	height: 100px;
+	width: auto;
+}
+
+.vertical, .R, .long {
+	stroke-dasharray: 979;
+	stroke-dashoffset: 979;
+	fill-opacity: 0;
+	stroke: #000000;
+	stroke-width: 4.5;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	animation: drawLine 1.25s linear forwards;
+}
+
+.vertical {
+	animation-delay: 0.05s;
+}
+
+.long {
+	animation-delay: 1.15s;
+}
+
+.R {
+	animation-delay: 0.25s;
 }
 
 .expand {
