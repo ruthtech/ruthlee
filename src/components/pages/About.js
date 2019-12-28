@@ -29,8 +29,7 @@ function About() {
             <p>
               I am returning to work after a 10 year career break. While on break I volunteered 
               at my children's school regularly. Some highlights include working on teams that 
-              raised over $10K per school year, writing social media for Council (WordPress, 
-              Facebook, MailChimp, SurveyMonkey, Twitter), and working with the TDSB to repair 
+              raised over $10K per school year and working with the TDSB to repair 
               and replace Kindergarten yards.
             </p>
           </div>
