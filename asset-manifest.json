@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ruthtech/static/css/main.11b21f13.chunk.css",
-    "main.js": "/ruthtech/static/js/main.a65fb3f1.chunk.js",
-    "main.js.map": "/ruthtech/static/js/main.a65fb3f1.chunk.js.map",
+    "main.js": "/ruthtech/static/js/main.7c45ef1b.chunk.js",
+    "main.js.map": "/ruthtech/static/js/main.7c45ef1b.chunk.js.map",
     "runtime-main.js": "/ruthtech/static/js/runtime-main.6b5ed454.js",
     "runtime-main.js.map": "/ruthtech/static/js/runtime-main.6b5ed454.js.map",
     "static/css/2.17e5ed98.chunk.css": "/ruthtech/static/css/2.17e5ed98.chunk.css",
     "static/js/2.1cc709e8.chunk.js": "/ruthtech/static/js/2.1cc709e8.chunk.js",
     "static/js/2.1cc709e8.chunk.js.map": "/ruthtech/static/js/2.1cc709e8.chunk.js.map",
     "index.html": "/ruthtech/index.html",
-    "precache-manifest.094325eebe85031a5500a822eea1f78a.js": "/ruthtech/precache-manifest.094325eebe85031a5500a822eea1f78a.js",
+    "precache-manifest.a6314d2918f91bff64f2769579d3e0c9.js": "/ruthtech/precache-manifest.a6314d2918f91bff64f2769579d3e0c9.js",
     "service-worker.js": "/ruthtech/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/ruthtech/static/css/2.17e5ed98.chunk.css.map",
     "static/css/main.11b21f13.chunk.css.map": "/ruthtech/static/css/main.11b21f13.chunk.css.map",
@@ -24,6 +24,6 @@
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.1cc709e8.chunk.js",
     "static/css/main.11b21f13.chunk.css",
-    "static/js/main.a65fb3f1.chunk.js"
+    "static/js/main.7c45ef1b.chunk.js"
   ]
 }
