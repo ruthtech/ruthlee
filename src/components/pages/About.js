@@ -18,7 +18,7 @@ function About() {
       </div>
       <div className="row justify-content-center d-flex">
         <div className="col-12 col-sm-8">
-          <div className="definition box first">
+          <div className="home box first">
             <h5 className="text-center mb-3">I get things done.</h5>
             <p>
               I've coded, tested, built, liaisoned, managed, project managed, and worked

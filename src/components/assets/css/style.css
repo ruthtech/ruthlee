@@ -180,6 +180,12 @@ body {
 
 .details-text {
 	margin-right: 1rem!important;
+	padding-top: 1em!important;
+}
+
+.details-image-col {
+	padding-left: 0!important;
+	padding-right: 0!important;
 }
 
 .details-image {
@@ -188,11 +194,14 @@ body {
 	/* height: auto; */
 }
 
-.definition {
+.definition, .home {
 	background-color: white;
-	padding: 1em;
 	border-radius: 10px;
 	box-shadow: 0 0 15px #403C3F; 
+}
+
+.home {
+	padding: 1em;
 }
 
 ul {

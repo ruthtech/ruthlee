@@ -84,7 +84,7 @@ function ProjectDetails(props) {
 
   return (
     <div className="details definition details-flex">
-      <div className="col-12 col-sm-7">
+      <div className="col-12 col-sm-7 details-image-col">
         <img src={props.project.image[imageName]} alt={props.project.title} className="details-image"/>
       </div>
       <div className="col-12 col-sm-5 details-text">
