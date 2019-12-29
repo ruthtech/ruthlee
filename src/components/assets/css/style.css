@@ -194,7 +194,7 @@ body {
 	/* height: auto; */
 }
 
-.definition, .home {
+.definition, .home, .contact {
 	background-color: white;
 	border-radius: 10px;
 	box-shadow: 0 0 15px #403C3F; 
@@ -202,6 +202,10 @@ body {
 
 .home {
 	padding: 1em;
+}
+
+.contact {
+	padding-left: 10px;
 }
 
 ul {

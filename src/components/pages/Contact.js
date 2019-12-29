@@ -6,7 +6,7 @@ function Contact(props) {
     <div className="container-fluid d-flex align-items-center h-100">
       <div className="row justify-content-center d-flex w-100">
         <div className="col-12 col-sm-8">
-          <div className="definition box">
+          <div className="contact box">
             <h5 className="text-center mb-3">Contact Me</h5>
             <p>Send me an email at <span className="loginliteral">leeruths@gmail.com</span> or message
             through my <a href="https://linkedin.com/in/ruthsarahlee">LinkedIn</a>.
