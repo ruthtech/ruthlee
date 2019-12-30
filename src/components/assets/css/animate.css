@@ -10,6 +10,13 @@ svg {
 }
 
 .vertical, .R, .long {
+	/* 
+	  To figure out how long the stroke-dasharry and stroke-dashoffset must be,
+	  embed the SVG in the .html file and include this JavaScript, using your 
+	  class name instead of .path:
+	  var path = document.querySelector('.path');
+      var length = path.getTotalLength();
+	 */
 	stroke-dasharray: 979;
 	stroke-dashoffset: 979;
 	fill-opacity: 0;
