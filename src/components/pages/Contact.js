@@ -11,7 +11,7 @@ function Contact(props) {
             <p>Send me an email at <span className="login-literal">leeruths@gmail.com</span> or message
             through my <a href="https://linkedin.com/in/ruthsarahlee">LinkedIn</a>.
             Looking forward to hearing from you!</p>
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0, 150, 400, 400" preserveAspectRatio="xMaxYMax meet">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="30, 150, 400, 300" preserveAspectRatio="xMaxYMax meet">
               <g id="Layer_1">
                 <path className="vertical" d="M120.5,247.5 C91.805,287.648 63.458,330.584 41.5,374.5" />
                 <path className="R" d="M10.5,237.5 C48.142,242.586 188.017,177.517 213,202.5 C260.436,249.936 92.581,294.5 66,294.5 C55.206,294.5 93.248,292.079 97.5,302 C107.129,324.468 94.693,362.341 125,371" />
