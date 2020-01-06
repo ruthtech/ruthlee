@@ -1,11 +1,12 @@
 import React from "react";
 import "../assets/css/style.css";
 import "../assets/css/about.css";
+import profilePhoto from '../assets/media/profile-photo.png';
 
 function About() {
   return (
     <div className="container-fluid">
-      <div className="row main">
+      <div className="row">
         <div className="col-12 col-sm-4">
           <div className="colour-box bg-lightBlue">Write</div>
         </div>
@@ -16,10 +17,10 @@ function About() {
           <div className="colour-box bg-darkBlue">Code</div>
         </div>
       </div>
-      <div className="row justify-content-center d-flex">
+      <div className="row home-row">
         <div className="col-12 col-sm-8">
-          <div className="home box first">
-            <h5 className="text-center mb-3">I get things done.</h5>
+          <div className="home">
+            <h5>I get things done.</h5>
             <p>
               I've coded, tested, built, liaisoned, managed, project managed, and worked
               on teams that spanned companies and continents. Having just completed a bootcamp
@@ -32,6 +33,7 @@ function About() {
               raised over $10K per school year and working with the TDSB to repair 
               and replace Kindergarten yards.
             </p>
+            <img src={profilePhoto} alt="Ruth Lee" />
           </div>
         </div>
       </div>
@@ -45,7 +47,7 @@ function About() {
 
 const skillSets = [
   {
-    title: "Tests and Tools",
+    title: "Tools and Tests",
     skills: ["Git", "JUnit", "JEST", "Visual Code", "Eclipse"],
     skillColour: 'bg-lightBlue'
   },

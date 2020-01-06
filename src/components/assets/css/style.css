@@ -98,11 +98,6 @@ body {
 
 
 /* MAIN SECTIONS */
-.main {
-	margin-bottom: auto;
-	padding-bottom: 1em;
-}
-
 .portfolio-header {
 	background-color: #cccccc;
 	color: black;
@@ -205,15 +200,30 @@ body {
 	padding: 1em;
 }
 
+.home > img {
+	display: flex!important;
+	margin-left: auto!important;
+}
+
+.home > h5, .contact > h5 {
+	text-align: center;
+	margin-bottom: 1rem!important;
+}
+
+.home-row {
+	justify-content: center;
+}
+
 .contact {
 	padding-left: 10px;
+	padding-bottom: 5px;
 }
 
 ul {
 	padding: 0em;
 }
 
-.loginliteral {
+.login-literal {
 	font-family: monospace;
 }
 

@@ -9,28 +9,9 @@
 	border-radius: 15px;
 }
 
-@keyframes flowInMainBox {
-	0% {
-	  transform: scale(0.1);
-	  opacity: 0;
-	}
-	100% {
-	  transform: scale(1);
-	  opacity: 1;
-	}
-}
-
-.first {
-	animation:  flowInMainBox 2s;
-	animation-fill-mode: forwards;
-    animation-delay: 0s;
-}
-
 .skills-card {
 	width: 100%;
 	margin-bottom: .5rem;
-	/* background-color: #cecfcf;
-	border-color: #6c757d!important; */
 	border-radius: 15px!important;
 }
 
@@ -43,3 +24,4 @@
 .skills-body {
 	border-radius: 0 0 15px 15px!important;
 }
+

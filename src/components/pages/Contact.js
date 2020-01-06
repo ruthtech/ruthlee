@@ -3,12 +3,12 @@ import '../assets/css/animate.css';
 
 function Contact(props) {
   return (
-    <div className="container-fluid d-flex align-items-center h-100">
-      <div className="row justify-content-center d-flex w-100">
+    <div className="container d-flex align-items-center h-100">
+      <div className="row home-row">
         <div className="col-12 col-sm-8">
-          <div className="contact box">
-            <h5 className="text-center mb-3">Contact Me</h5>
-            <p>Send me an email at <span className="loginliteral">leeruths@gmail.com</span> or message
+          <div className="contact">
+            <h5>Contact Me</h5>
+            <p>Send me an email at <span className="login-literal">leeruths@gmail.com</span> or message
             through my <a href="https://linkedin.com/in/ruthsarahlee">LinkedIn</a>.
             Looking forward to hearing from you!</p>
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0, 150, 400, 400" preserveAspectRatio="xMaxYMax meet">

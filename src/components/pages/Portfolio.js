@@ -67,7 +67,7 @@ function ListLogins(props) {
       <div>
         <span>Logins to use in the demo:</span>
         <ul className="login">{props.project.logins.map( (login, index) => {
-          return <li key={'login'+index}>{login.title}: <span className="loginliteral">{login.userid}</span>, password: <span className="loginliteral">{login.password}</span></li>
+          return <li key={'login'+index}>{login.title}: <span className="login-literal">{login.userid}</span>, password: <span className="login-literal">{login.password}</span></li>
         })}</ul>
       </div>
       );
