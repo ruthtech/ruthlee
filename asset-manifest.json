@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ruthtech/static/css/main.08de48ac.chunk.css",
+    "main.css": "/ruthtech/static/css/main.46894310.chunk.css",
     "main.js": "/ruthtech/static/js/main.4a5eeaee.chunk.js",
     "main.js.map": "/ruthtech/static/js/main.4a5eeaee.chunk.js.map",
     "runtime-main.js": "/ruthtech/static/js/runtime-main.6b5ed454.js",
@@ -9,10 +9,10 @@
     "static/js/2.3b4230be.chunk.js": "/ruthtech/static/js/2.3b4230be.chunk.js",
     "static/js/2.3b4230be.chunk.js.map": "/ruthtech/static/js/2.3b4230be.chunk.js.map",
     "index.html": "/ruthtech/index.html",
-    "precache-manifest.8e21b197f5e50c3532a620438997500b.js": "/ruthtech/precache-manifest.8e21b197f5e50c3532a620438997500b.js",
+    "precache-manifest.5e6a658818296f2019cebd0166f721b6.js": "/ruthtech/precache-manifest.5e6a658818296f2019cebd0166f721b6.js",
     "service-worker.js": "/ruthtech/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/ruthtech/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.08de48ac.chunk.css.map": "/ruthtech/static/css/main.08de48ac.chunk.css.map",
+    "static/css/main.46894310.chunk.css.map": "/ruthtech/static/css/main.46894310.chunk.css.map",
     "static/js/2.3b4230be.chunk.js.LICENSE": "/ruthtech/static/js/2.3b4230be.chunk.js.LICENSE",
     "static/media/employee-tracker-min.jpg": "/ruthtech/static/media/employee-tracker-min.ee4fe521.jpg",
     "static/media/profile-photo.png": "/ruthtech/static/media/profile-photo.780f9b5f.png",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.6b5ed454.js",
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.3b4230be.chunk.js",
-    "static/css/main.08de48ac.chunk.css",
+    "static/css/main.46894310.chunk.css",
     "static/js/main.4a5eeaee.chunk.js"
   ]
 }
