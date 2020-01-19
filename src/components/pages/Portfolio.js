@@ -1,11 +1,26 @@
 import React from "react";
 import "../assets/css/style.css";
-import PrjImg0 from '../assets/media/trusael-min.jpg';
-import PrjImg1 from '../assets/media/torontoarearesources-min.jpg';
-import PrjImg2 from '../assets/media/employee-tracker-min.jpg';
+import PrjImg0 from '../assets/media/voting-application.png';
+import PrjImg1 from '../assets/media/trusael-min.jpg';
+import PrjImg2 from '../assets/media/torontoarearesources-min.jpg';
+import PrjImg3 from '../assets/media/employee-tracker-min.jpg';
 
 function Portfolio() {
   const projects = [
+    {
+      title: "Canada Votes Online", 
+      summary: "Enable eligible voters to vote online and view election results.", 
+      skills: ['MongoDB', 'Mongoose', 'React', 'mapbox', 'Server (Node, Express)', 'Heroku', 'dotenv', 'loglevel', 'loglevel-plugin-remote', 'axios', 'Bootstrap', 'HTML', 'CSS'  ], 
+      github: "https://github.com/ruthtech/voting-app", 
+      heroku: "https://arcane-mountain-21933.herokuapp.com/",
+      colour: "bg-darkBlue",
+      image: {PrjImg0},
+      logins: [
+        {title: "Admin", userid: "admin", password: "admin"},
+        {title: "Voter", userid: "happyfrog374", password: "technics"}
+      ],
+      index: 0
+    },
     {
       title: "TrusÆL Online Marketplace", 
       summary: "Real estate agents compete by bidding to represent sellers in transactions. Sellers compare bids and look at agent reviews when deciding who will get their business.", 
@@ -13,12 +28,12 @@ function Portfolio() {
       github: "https://github.com/BCButcher/TRUS-L", 
       heroku: "https://murmuring-cove-22350.herokuapp.com/",
       colour: "bg-lightBlue",
-      image: {PrjImg0},
+      image: {PrjImg1},
       logins: [
         {title: "Agent", userid: "abbybanksy@broker.ca", password: "password"},
         {title: "Seller", userid: "louiekritski@fake.com", password: "password"}
       ],
-      index: 0
+      index: 1
     },
     {
       title: "Toronto Area Resources", 
@@ -27,8 +42,8 @@ function Portfolio() {
       github: "https://github.com/ruthtech/torontoAreaResources", 
       heroku: "https://ruthtech.github.io/torontoAreaResources",
       colour: "bg-mediumBlue",
-      image: {PrjImg1},
-      index: 1
+      image: {PrjImg2},
+      index: 2
     },
     {
       title: "Employee Tracker", 
@@ -37,8 +52,8 @@ function Portfolio() {
       github: "https://github.com/ruthtech/employee-tracker", 
       heroku: "https://github.com/ruthtech/employee-tracker/blob/master/employee-tracker.gif",
       colour: "bg-darkBlue",
-      image: {PrjImg2},
-      index: 2
+      image: {PrjImg3},
+      index: 3
     }
   ];
 
