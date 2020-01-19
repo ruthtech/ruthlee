@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "71929c7f2c67e0cae6267fb085dfdb97",
+    "revision": "e06760fcf139bd3466237c5437ae60c0",
     "url": "/ruthtech/index.html"
   },
   {
-    "revision": "8385f1630769581fc0c7",
+    "revision": "ee6f02aee31497e79db6",
     "url": "/ruthtech/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "f51b6b3fa32bfc658d19",
+    "revision": "44ccd366ba33cdc1abed",
     "url": "/ruthtech/static/css/main.c0e19214.chunk.css"
   },
   {
-    "revision": "8385f1630769581fc0c7",
-    "url": "/ruthtech/static/js/2.3b4230be.chunk.js"
+    "revision": "ee6f02aee31497e79db6",
+    "url": "/ruthtech/static/js/2.103ce669.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/ruthtech/static/js/2.3b4230be.chunk.js.LICENSE"
+    "url": "/ruthtech/static/js/2.103ce669.chunk.js.LICENSE"
   },
   {
-    "revision": "f51b6b3fa32bfc658d19",
-    "url": "/ruthtech/static/js/main.87110939.chunk.js"
+    "revision": "44ccd366ba33cdc1abed",
+    "url": "/ruthtech/static/js/main.167d9bb0.chunk.js"
   },
   {
     "revision": "6cd7edb058c8c108c552",
     "url": "/ruthtech/static/js/runtime-main.6b5ed454.js"
   },
   {
-    "revision": "ee4fe5214c2e6c3e57876588611d7c24",
-    "url": "/ruthtech/static/media/employee-tracker-min.ee4fe521.jpg"
+    "revision": "13bd556510446955674445c87dc05c24",
+    "url": "/ruthtech/static/media/employee-tracker-min.13bd5565.jpg"
   },
   {
     "revision": "780f9b5f88dc89f8bc783a171811fbf9",
@@ -44,7 +44,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ruthtech/static/media/torontoarearesources-min.23ca5cf6.jpg"
   },
   {
-    "revision": "1a813223feb67c1ba9e3d12f0b9c324f",
-    "url": "/ruthtech/static/media/trusael-min.1a813223.jpg"
+    "revision": "d15dbfb8165992e512e4d8cbc2e9489f",
+    "url": "/ruthtech/static/media/trusael-min.d15dbfb8.jpg"
+  },
+  {
+    "revision": "52e6ca0e4b9402d979aac46fe7c481f1",
+    "url": "/ruthtech/static/media/voting-application.52e6ca0e.png"
   }
 ]);

@@ -1,30 +1,31 @@
 {
   "files": {
     "main.css": "/ruthtech/static/css/main.c0e19214.chunk.css",
-    "main.js": "/ruthtech/static/js/main.87110939.chunk.js",
-    "main.js.map": "/ruthtech/static/js/main.87110939.chunk.js.map",
+    "main.js": "/ruthtech/static/js/main.167d9bb0.chunk.js",
+    "main.js.map": "/ruthtech/static/js/main.167d9bb0.chunk.js.map",
     "runtime-main.js": "/ruthtech/static/js/runtime-main.6b5ed454.js",
     "runtime-main.js.map": "/ruthtech/static/js/runtime-main.6b5ed454.js.map",
     "static/css/2.17e5ed98.chunk.css": "/ruthtech/static/css/2.17e5ed98.chunk.css",
-    "static/js/2.3b4230be.chunk.js": "/ruthtech/static/js/2.3b4230be.chunk.js",
-    "static/js/2.3b4230be.chunk.js.map": "/ruthtech/static/js/2.3b4230be.chunk.js.map",
+    "static/js/2.103ce669.chunk.js": "/ruthtech/static/js/2.103ce669.chunk.js",
+    "static/js/2.103ce669.chunk.js.map": "/ruthtech/static/js/2.103ce669.chunk.js.map",
     "index.html": "/ruthtech/index.html",
-    "precache-manifest.41c25d286ec11fce3587e6a26d062445.js": "/ruthtech/precache-manifest.41c25d286ec11fce3587e6a26d062445.js",
+    "precache-manifest.b502679beecc6db61009b6734729c6f4.js": "/ruthtech/precache-manifest.b502679beecc6db61009b6734729c6f4.js",
     "service-worker.js": "/ruthtech/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/ruthtech/static/css/2.17e5ed98.chunk.css.map",
     "static/css/main.c0e19214.chunk.css.map": "/ruthtech/static/css/main.c0e19214.chunk.css.map",
-    "static/js/2.3b4230be.chunk.js.LICENSE": "/ruthtech/static/js/2.3b4230be.chunk.js.LICENSE",
-    "static/media/employee-tracker-min.jpg": "/ruthtech/static/media/employee-tracker-min.ee4fe521.jpg",
+    "static/js/2.103ce669.chunk.js.LICENSE": "/ruthtech/static/js/2.103ce669.chunk.js.LICENSE",
+    "static/media/employee-tracker-min.jpg": "/ruthtech/static/media/employee-tracker-min.13bd5565.jpg",
     "static/media/profile-photo.png": "/ruthtech/static/media/profile-photo.780f9b5f.png",
     "static/media/ruthtech.svg": "/ruthtech/static/media/ruthtech.da12427d.svg",
     "static/media/torontoarearesources-min.jpg": "/ruthtech/static/media/torontoarearesources-min.23ca5cf6.jpg",
-    "static/media/trusael-min.jpg": "/ruthtech/static/media/trusael-min.1a813223.jpg"
+    "static/media/trusael-min.jpg": "/ruthtech/static/media/trusael-min.d15dbfb8.jpg",
+    "static/media/voting-application.png": "/ruthtech/static/media/voting-application.52e6ca0e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6b5ed454.js",
     "static/css/2.17e5ed98.chunk.css",
-    "static/js/2.3b4230be.chunk.js",
+    "static/js/2.103ce669.chunk.js",
     "static/css/main.c0e19214.chunk.css",
-    "static/js/main.87110939.chunk.js"
+    "static/js/main.167d9bb0.chunk.js"
   ]
 }
