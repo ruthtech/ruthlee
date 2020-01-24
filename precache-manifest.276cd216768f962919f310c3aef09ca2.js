@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e06760fcf139bd3466237c5437ae60c0",
+    "revision": "187e1b92bb063051ab86417875c48ccb",
     "url": "/ruthtech/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ruthtech/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "44ccd366ba33cdc1abed",
+    "revision": "346073e372efa8bdc0ec",
     "url": "/ruthtech/static/css/main.c0e19214.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ruthtech/static/js/2.103ce669.chunk.js.LICENSE"
   },
   {
-    "revision": "44ccd366ba33cdc1abed",
-    "url": "/ruthtech/static/js/main.167d9bb0.chunk.js"
+    "revision": "346073e372efa8bdc0ec",
+    "url": "/ruthtech/static/js/main.b96a2117.chunk.js"
   },
   {
     "revision": "6cd7edb058c8c108c552",
@@ -48,7 +48,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ruthtech/static/media/trusael-min.d15dbfb8.jpg"
   },
   {
-    "revision": "52e6ca0e4b9402d979aac46fe7c481f1",
-    "url": "/ruthtech/static/media/voting-application.52e6ca0e.png"
+    "revision": "66eeee178f2a0d8514a9c2f714824aeb",
+    "url": "/ruthtech/static/media/voting-application.66eeee17.png"
   }
 ]);
