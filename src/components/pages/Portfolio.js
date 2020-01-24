@@ -9,7 +9,7 @@ function Portfolio() {
   const projects = [
     {
       title: "Canada Votes Online", 
-      summary: "Enable eligible voters to vote online and view election results.", 
+      summary: "Enable eligible voters to vote online. Simulate and view election results.", 
       skills: ['MongoDB', 'Mongoose', 'React', 'mapbox', 'Server (Node, Express)', 'Heroku', 'dotenv', 'loglevel', 'loglevel-plugin-remote', 'axios', 'Bootstrap', 'HTML', 'CSS'  ], 
       github: "https://github.com/ruthtech/voting-app", 
       heroku: "https://arcane-mountain-21933.herokuapp.com/",
