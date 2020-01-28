@@ -53,12 +53,12 @@ const skillSets = [
   },
   {
     title: "Soft skills",
-    skills: ["Organized", "Reliable", "Problem solver", "Strong work ethic", "Thorough"],
+    skills: ["Problem solver", "Analytical", "Organized", "Work well in a team or alone", "Thorough"],
     skillColour: 'bg-mediumBlue'
   },
   {
     title: "Programming",
-    skills: ["Java", "JavaScript", "SQL", "React", "Node"],
+    skills: ["Java", "MERN", "OOP", "JavaScript", "SQL"],
     skillColour: 'bg-darkBlue'
   }
 ];
