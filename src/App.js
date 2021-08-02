@@ -12,7 +12,7 @@ function App() {
     <HashRouter>
       <div className="full-screen">
         <NavTabs />
-        <Route exact path={["/", "/ruthtech", ""]} component={About} />
+        <Route exact path={["/", "/ruthtechportfolio", ""]} component={About} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
         <Footer />

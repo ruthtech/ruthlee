@@ -22,7 +22,7 @@ function About() {
           <div className="home">
             <h5>I get things done.</h5>
             <p>
-              I've coded, tested, built, liaisoned, managed, project managed, and worked
+              I've coded, tested, built, managed, project managed, and worked
               on teams that spanned companies and continents. Having just completed a bootcamp
               that taught me Full Stack Web Development, I will continue to learn new technologies
               and solve problems.
@@ -48,17 +48,17 @@ function About() {
 const skillSets = [
   {
     title: "Tools and Tests",
-    skills: ["Git", "JUnit", "JEST", "Visual Code", "Eclipse"],
+    skills: ["Git", "JUnit", "Mockito", "JEST"],
     skillColour: 'bg-lightBlue'
   },
   {
     title: "Soft skills",
-    skills: ["Problem solver", "Analytical", "Organized", "Work well in a team or as an individual", "Thorough"],
+    skills: ["Problem solver", "Analytical", "Organized", "Works well in a team or as an individual", "Thorough"],
     skillColour: 'bg-mediumBlue'
   },
   {
     title: "Programming",
-    skills: ["Java", "MERN", "OOP", "JavaScript", "SQL"],
+    skills: ["Java", "NoSQL", "MERN", "OOP", "JavaScript", "SQL"],
     skillColour: 'bg-darkBlue'
   }
 ];
