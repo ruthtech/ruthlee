@@ -7,13 +7,6 @@ All of the files can be loaded with your browser. Follow the instructions in "In
 ### Prerequisites
 A browser. Chrome was used for testing. 
 
-### Installing
-1. Go to https://github.com/ruthtech/ruthtechportfolio and click on the "Clone or Download" button. 
-2. Choose "Download ZIP". 
-3. Unzip into a directory. If you're on Windows, open File Explorer and navigate to the download directory. Select the ZIP file, right click, and choose "Extract All". Accept the default location.
-4. Once the file is unzipped, navigate to ruthtechportfolio-master. Type "npm run build" and then "npm start". React will launch your browser on the local server. 
-
-
 ## Running the tests
 No automated test suite has been created, but you can check Google Chrome's Developer Tools to see if there are any errors. 
 
