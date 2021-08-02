@@ -2,7 +2,7 @@
 This is Ruth Lee's portfolio. 
 
 ## Getting Started
-All of the files can be loaded with your browser. Follow the instructions in "Installing".
+All of the files can be loaded with your browser. 
 
 ### Prerequisites
 A browser. Chrome was used for testing. 
