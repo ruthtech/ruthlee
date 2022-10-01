@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "55bb63792cc8649d49c559927d7fac19",
+    "revision": "174e91cfd4959591bcf162c17f47bcaa",
     "url": "/ruthlee/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ruthlee/static/css/2.d4bd74a8.chunk.css"
   },
   {
-    "revision": "18c841982522d7c85a3e",
+    "revision": "1d73726a1232c92de3cc",
     "url": "/ruthlee/static/css/main.a51ca2b3.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ruthlee/static/js/2.15dd4774.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "18c841982522d7c85a3e",
-    "url": "/ruthlee/static/js/main.cc215498.chunk.js"
+    "revision": "1d73726a1232c92de3cc",
+    "url": "/ruthlee/static/js/main.7239c552.chunk.js"
   },
   {
     "revision": "840b04b00efc5235acb3",
