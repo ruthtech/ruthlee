@@ -1,21 +1,22 @@
 import React from "react";
-//import { BrowserRouter as Router, Route } from "react-router-dom";
 import { HashRouter, Route } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
-import Footer from "./components/Footer";
+import TitleBar from "./components/TitleBar";
+import Home from "./components/pages/Home";
+import Skills from "./components/pages/Skills";
 import Portfolio from "./components/pages/Portfolio";
-import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 
 function App() {
   return (
     <HashRouter>
       <div className="full-screen">
+        <TitleBar />
         <NavTabs />
-        <Route exact path={["/", "/ruthtechportfolio", ""]} component={About} />
+        <Route exact path={["/", "/ruthlee", ""]} component={Home} />
+        <Route path="/skills" component={Skills} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
-        <Footer />
       </div>
     </HashRouter>
   );

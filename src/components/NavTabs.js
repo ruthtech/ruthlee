@@ -1,30 +1,32 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "./assets/media/ruthtech.svg";
 import "./assets/css/style.css";
 
 function NavTabs() {
   return (
     <div>
       <ul className="nav nav-bar">
-        <li className="col-12 col-sm-2 nav-item logo-block">
-          <div>
-            <a href="/ruthtechportfolio"><img src={Logo} alt="Ruth Lee Logo" className="logo"/></a>
-          </div>
-	  		  <div className="logo-text">
-		  		  Get things done.
-			    </div>
-        </li>
-        <li className="nav-item nav-tab">
+        <li className="nav-item">
           <Link
-            to="/ruthtechportfolio"
+            to="/ruthlee"
             className={
-              window.location.pathname === "/ruthtechportfolio" ? "nav-link active" : "nav-link"
+              window.location.pathname === "/ruthlee" ? "nav-link active" : "nav-link"
             }>
             Home
           </Link>
         </li>
-        <li className="nav-item nav-tab">
+        <li className="nav-item">
+          <Link
+              to="/skills"
+              className={
+                window.location.pathname === "/skills"
+                    ? "nav-link active"
+                    : "nav-link"
+              }>
+            Skills
+          </Link>
+        </li>
+        <li className="nav-item">
           <Link
             to="/portfolio"
             className={
@@ -35,7 +37,7 @@ function NavTabs() {
             Portfolio
           </Link>
         </li>
-        <li className="nav-item nav-tab">
+        <li className="nav-item">
           <Link
             to="/contact"
             className={

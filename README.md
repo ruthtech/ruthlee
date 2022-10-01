@@ -13,7 +13,7 @@ No automated test suite has been created, but you can check Google Chrome's Deve
 ## Deployment
 To deploy this on a live system, copy all the files to your server. 
 
-To view this on a live system, go to https://ruthtech.github.io/ruthtechportfolio/
+To view this on a live system, go to https://ruthtech.github.io/ruthlee/
 
 ## Built With
 * [Visual Studio Code] https://code.visualstudio.com/docs/setup/setup-overview
@@ -41,7 +41,5 @@ MIT
      * Article "Deploy React to GitHub-Pages to create an amazing website!" by Gurjot Singh Makkar (https://codeburst.io/deploy-react-to-github-pages-to-create-an-amazing-website-42d8b09cd4d)
      * Article "So you want to host your Single Page React App on GitHub Pages?" by Brendan McIlhenny (https://itnext.io/so-you-want-to-host-your-single-age-react-app-on-github-pages-a826ab01e48)
      * Article "Deployment" subsection "Notes on client-side routing" by create-react-dev (https://create-react-app.dev/docs/deployment/#github-pages).
-* For instructions on how to animate my signature on the Contact page:
-     * Article "How SVG Line Animation Works" by Chris Coyier (https://css-tricks.com/svg-line-animation-works/).
      
      

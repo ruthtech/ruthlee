@@ -2,8 +2,7 @@ import React from "react";
 import "../assets/css/style.css";
 import PrjImg0 from '../assets/media/voting-application.png';
 import PrjImg1 from '../assets/media/trusael-min.jpg';
-import PrjImg2 from '../assets/media/torontoarearesources-min.jpg';
-import PrjImg3 from '../assets/media/employee-tracker-min.jpg';
+import PrjImg2 from '../assets/media/employee-tracker-min.jpg';
 
 function Portfolio() {
   const projects = [
@@ -36,34 +35,19 @@ function Portfolio() {
       index: 1
     },
     {
-      title: "Toronto Area Resources", 
-      summary: "Query the City of Toronto data to find out what resources exist and plot them on an interactive map.", 
-      skills: ['MapBox', 'HTML', 'CSS', 'JavaScript', 'AJAX', 'City of Toronto Open Data API'], 
-      github: "https://github.com/ruthtech/torontoAreaResources", 
-      heroku: "https://ruthtech.github.io/torontoAreaResources",
-      colour: "bg-mediumBlue",
-      image: {PrjImg2},
-      index: 2
-    },
-    {
       title: "Employee Tracker", 
       summary: "Command line tool that manages a company's employees: add employee, view departments, remove employee etc.", 
       skills: ['Node', 'Inquirer', 'JavaScript', 'MySQL' ], 
       github: "https://github.com/ruthtech/employee-tracker", 
       heroku: "https://github.com/ruthtech/employee-tracker/blob/master/employee-tracker.gif",
       colour: "bg-darkBlue",
-      image: {PrjImg3},
-      index: 3
+      image: {PrjImg2},
+      index: 2
     }
   ];
 
   return (
     <div className="container-fluid">
-      <div className="row">
-        <div className="col">
-          <h6 className="mt-3">The projects on this page demonstrate a variety of roles: full stack, working with maps, and a command line application.</h6>
-        </div>
-      </div>
       <div className="row">
         {
         projects.map( (aProject, index) => {
@@ -80,7 +64,7 @@ function ListLogins(props) {
     if(props.project.logins !== undefined) {
       return (
       <div>
-        <span>Logins to use in the demo:</span>
+        <span className="small">Logins to use in the demo:</span>
         <ul className="login">{props.project.logins.map( (login, index) => {
           return <li key={'login'+index}>{login.title}: <span className="login-literal">{login.userid}</span>, password: <span className="login-literal">{login.password}</span></li>
         })}</ul>
@@ -103,7 +87,7 @@ function ProjectDetails(props) {
         <img src={props.project.image[imageName]} alt={props.project.title} className="details-image"/>
       </div>
       <div className="col-12 col-sm-5 details-text">
-        <h2>{props.project.title}</h2>
+        <h5>{props.project.title}</h5>
         <p>{props.project.summary}</p>
         <ul className="project-skills">{props.project.skills.map( (skill, index) => {
           return <li key={'detail'+index}>{skill}</li>

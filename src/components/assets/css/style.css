@@ -10,35 +10,16 @@ html, body, #root, .full-screen {
 }
 
 body {
-	background-color: #F2F2F2!important;
+	background-color: #151515!important;
 	display: flex;
 	flex-direction: column;
+	font-family: "Courier New", monospace;
 }
 
-
 @media (max-width: 575px) {
-	.logo {
-		width: 75%;
-	}
-
-	.logo-text {
-		color: #666666;
-		font-size: large;
-		font-weight: bold;
-		font-style: italic;
-		vertical-align: bottom;
-		display: inline-block;
-		padding-left: 0;
-	}
-
 	.nav-bar {
-		justify-content: center;
+		justify-content: left;
 		text-align: center;
-	}
-
-	.nav-tab {
-		margin-top: 1rem!important;
-		border-left: 1px solid #F2F2F2;
 	}
 
 	.details-flex {
@@ -47,27 +28,8 @@ body {
 }
 
 @media (min-width: 576px) {
-	.logo {
-		width: 75%;
-		height: 75%;
-	}
-
-	.logo-text {
-		color: #666666;
-		font-size: small;
-		font-weight: bold;
-		font-style: italic;
-		vertical-align: bottom;
-		display: inline-block;
-		padding-left: 0;
-	}
-
 	.nav-bar {
-		justify-content: end;
-	}	
-
-	.nav-tab {
-		border-left: 1px solid #F2F2F2;
+		justify-content: left;
 	}
 
 	.nav-item {
@@ -80,21 +42,86 @@ body {
 	}
 }
 
-.logo-block {
-	margin-right: auto!important;
-	margin-left: 1rem!important;
-}
-
 /* HEADER */
 .nav {
-	background-color: #D9D9D9;	
+	background-color: #D9D9D9;
+	font-family: "Courier New", monospace;
 }
 
-.nav-link {
+.titleBar {
+	justify-content: center;
+	font-size: 0.9em;
+}
+
+a.nav-link {
+	display: inline;
+	padding: 0.5em;
+	font-size: 0.9em;
 	color: #403C3F;
 }
-
 /* END HEADER */
+
+.home {
+	padding: 1em;
+}
+
+.home-row {
+	justify-content: left;
+	color: #847d72;
+	font-family: "Courier New", monospace;
+}
+
+prompt {
+	color: aquamarine;
+}
+
+prompt.white {
+	color: white;
+}
+
+prompt.blue {
+	color: blue;
+}
+
+div.man {
+	padding-top: 1em;
+}
+
+div.man > p {
+	padding-left: 1em;
+}
+
+div.man > mantitle {
+	font-weight: bold;
+	font-size: 1em;
+	padding-top: 1em;
+	display: block;
+}
+
+ul.no-bullets {
+	list-style-type: none;
+}
+
+ul.no-bullets > li {
+	margin-left: -2em;
+}
+
+man {
+	font-weight: bold;
+}
+
+.contact {
+	padding-left: 1em;
+}
+
+.contact > h3 {
+	font-weight: bold;
+}
+
+.contact > ul {
+	padding-left: 2em;
+	justify-content: left;
+}
 
 
 /* MAIN SECTIONS */
@@ -117,6 +144,7 @@ body {
 	color: #403C3F!important;
 	margin-top: 0.5em;	
 	font-weight: 600!important;
+	font-size: small;
 }
 
 .portfolio-button:hover {
@@ -136,25 +164,6 @@ body {
 	margin-top: 1rem!important;
 }
 
-.bg-lightBlue {
-	background-color: #8AA6BF;
-	color: #F2F2F2;
-}
-
-.bg-mediumBlue {
-	background-color: #5E728C;
-	color: #F2F2F2;
-}
-
-.bg-darkBlue {
-	background-color: #403C3F;
-	color: #F2F2F2;
-}
-
-.card-buttons {
-	margin-top: auto!important;
-	padding: 1rem!important;
-}
 
 .card-portfolio {
 	padding: 0;
@@ -179,6 +188,10 @@ body {
 	padding-bottom: 1em!important;
 }
 
+.details-text > p {
+	font-size: small;
+}
+
 .details-image-col {
 	padding-left: 0!important;
 	padding-right: 0!important;
@@ -190,36 +203,13 @@ body {
 	/* height: auto; */
 }
 
-.definition, .home, .contact {
+.definition, .home {
 	background-color: white;
 	border-radius: 10px;
 	box-shadow: 0 0 15px #403C3F; 
 }
 
-.home {
-	padding: 1em;
-}
-
-.home > img, .contact > svg {
-	display: flex!important;
-	margin-left: auto!important;
-}
-
-.home > h5, .contact > h5 {
-	text-align: center;
-	margin-bottom: 1rem!important;
-}
-
-.home-row {
-	justify-content: center;
-}
-
-.contact {
-	padding-left: 10px;
-	padding-bottom: 5px;
-}
-
-ul {
+.login {
 	padding: 0em;
 }
 
@@ -227,11 +217,14 @@ ul {
 	font-family: monospace;
 }
 
+.project-skills {
+	padding: 0em;
+}
+
 .project-skills li, .login li {
 	display: inline-block;
 	font-size: small;
 	padding: 0.25em;
-
 }
 
 .project-skills li {
@@ -240,26 +233,5 @@ ul {
 
 
 /* END MAIN SECTIONS */
-
-
-/* FOOTER */
-.footer {
-	background-color: #D9D9D9;
-	justify-content: center;
-	padding-bottom: 1em;
-	padding-top: 1em;
-	flex-shrink: 0;
-	margin-left: 0!important;
-	margin-right: 0!important;
-	text-align: center;
-	margin-top: auto!important;
-}
-
-.footer a {
-	text-decoration: none;
-	color: #403C3F;
-	font-size: small;
-}
-/* END FOOTER */
 
   
