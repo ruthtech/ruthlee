@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ruthlee/static/css/main.a51ca2b3.chunk.css",
-    "main.js": "/ruthlee/static/js/main.8e3ba91b.chunk.js",
-    "main.js.map": "/ruthlee/static/js/main.8e3ba91b.chunk.js.map",
+    "main.js": "/ruthlee/static/js/main.cc215498.chunk.js",
+    "main.js.map": "/ruthlee/static/js/main.cc215498.chunk.js.map",
     "runtime-main.js": "/ruthlee/static/js/runtime-main.8562319e.js",
     "runtime-main.js.map": "/ruthlee/static/js/runtime-main.8562319e.js.map",
     "static/css/2.d4bd74a8.chunk.css": "/ruthlee/static/css/2.d4bd74a8.chunk.css",
     "static/js/2.15dd4774.chunk.js": "/ruthlee/static/js/2.15dd4774.chunk.js",
     "static/js/2.15dd4774.chunk.js.map": "/ruthlee/static/js/2.15dd4774.chunk.js.map",
     "index.html": "/ruthlee/index.html",
-    "precache-manifest.3a9c063a7017c4177187dd3349477212.js": "/ruthlee/precache-manifest.3a9c063a7017c4177187dd3349477212.js",
+    "precache-manifest.ed332fd7441252a41c1588a0e72ded8b.js": "/ruthlee/precache-manifest.ed332fd7441252a41c1588a0e72ded8b.js",
     "service-worker.js": "/ruthlee/service-worker.js",
     "static/css/2.d4bd74a8.chunk.css.map": "/ruthlee/static/css/2.d4bd74a8.chunk.css.map",
     "static/css/main.a51ca2b3.chunk.css.map": "/ruthlee/static/css/main.a51ca2b3.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.d4bd74a8.chunk.css",
     "static/js/2.15dd4774.chunk.js",
     "static/css/main.a51ca2b3.chunk.css",
-    "static/js/main.8e3ba91b.chunk.js"
+    "static/js/main.cc215498.chunk.js"
   ]
 }
