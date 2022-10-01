@@ -17,7 +17,6 @@ function Contact() {
               <p>Contact Ruth Lee:</p>
               <ul>
                 <li>Email: leeruths@gmail.com</li>
-                <li>LinkedIn: <a href="https://linkedin.com/in/ruthsarahlee">https://linkedin.com/in/ruthsarahlee</a></li>
                 <li>GitHub: <a href="https://github.com/ruthtech">https://github.com/ruthtech</a></li>
               </ul>
 
