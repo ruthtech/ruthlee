@@ -3,7 +3,8 @@ import React from "react";
 function Skills() {
   return (
       <div className="container-fluid">
-        <div className="row home-row col-12">
+        <div className="row home-row">
+          <div className="col-12">
             <prompt>ruth@lee</prompt><prompt className="white">:</prompt><prompt className="blue">~</prompt><prompt className="white">$</prompt> man 2 ruthlee
 
             <div className="man">
@@ -33,6 +34,7 @@ function Skills() {
               </ul>
             </div>
           </div>
+        </div>
       </div>
   );
 }
