@@ -1,28 +1,16 @@
 {
   "files": {
-    "main.css": "/ruthlee/static/css/main.a51ca2b3.chunk.css",
-    "main.js": "/ruthlee/static/js/main.7239c552.chunk.js",
-    "main.js.map": "/ruthlee/static/js/main.7239c552.chunk.js.map",
-    "runtime-main.js": "/ruthlee/static/js/runtime-main.8562319e.js",
-    "runtime-main.js.map": "/ruthlee/static/js/runtime-main.8562319e.js.map",
-    "static/css/2.d4bd74a8.chunk.css": "/ruthlee/static/css/2.d4bd74a8.chunk.css",
-    "static/js/2.15dd4774.chunk.js": "/ruthlee/static/js/2.15dd4774.chunk.js",
-    "static/js/2.15dd4774.chunk.js.map": "/ruthlee/static/js/2.15dd4774.chunk.js.map",
+    "main.css": "/ruthlee/static/css/main.8c113acf.css",
+    "main.js": "/ruthlee/static/js/main.f6f8367e.js",
+    "static/media/trusael-min.jpg": "/ruthlee/static/media/trusael-min.a83305ca6aace2812f9f.jpg",
+    "static/media/voting-application.png": "/ruthlee/static/media/voting-application.fe2b46b3dedb246482a2.png",
+    "static/media/employee-tracker-min.jpg": "/ruthlee/static/media/employee-tracker-min.7e67949970109338dba6.jpg",
     "index.html": "/ruthlee/index.html",
-    "precache-manifest.da80f55859ab544735656bae824ea100.js": "/ruthlee/precache-manifest.da80f55859ab544735656bae824ea100.js",
-    "service-worker.js": "/ruthlee/service-worker.js",
-    "static/css/2.d4bd74a8.chunk.css.map": "/ruthlee/static/css/2.d4bd74a8.chunk.css.map",
-    "static/css/main.a51ca2b3.chunk.css.map": "/ruthlee/static/css/main.a51ca2b3.chunk.css.map",
-    "static/js/2.15dd4774.chunk.js.LICENSE.txt": "/ruthlee/static/js/2.15dd4774.chunk.js.LICENSE.txt",
-    "static/media/employee-tracker-min.jpg": "/ruthlee/static/media/employee-tracker-min.13bd5565.jpg",
-    "static/media/trusael-min.jpg": "/ruthlee/static/media/trusael-min.d15dbfb8.jpg",
-    "static/media/voting-application.png": "/ruthlee/static/media/voting-application.66eeee17.png"
+    "main.8c113acf.css.map": "/ruthlee/static/css/main.8c113acf.css.map",
+    "main.f6f8367e.js.map": "/ruthlee/static/js/main.f6f8367e.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.8562319e.js",
-    "static/css/2.d4bd74a8.chunk.css",
-    "static/js/2.15dd4774.chunk.js",
-    "static/css/main.a51ca2b3.chunk.css",
-    "static/js/main.7239c552.chunk.js"
+    "static/css/main.8c113acf.css",
+    "static/js/main.f6f8367e.js"
   ]
 }
