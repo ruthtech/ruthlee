@@ -1,31 +1,28 @@
 {
   "files": {
-    "main.css": "/ruthtechportfolio/static/css/main.1a762852.chunk.css",
-    "main.js": "/ruthtechportfolio/static/js/main.ea60c8c2.chunk.js",
-    "main.js.map": "/ruthtechportfolio/static/js/main.ea60c8c2.chunk.js.map",
-    "runtime-main.js": "/ruthtechportfolio/static/js/runtime-main.63221aa7.js",
-    "runtime-main.js.map": "/ruthtechportfolio/static/js/runtime-main.63221aa7.js.map",
-    "static/css/2.63f31f8d.chunk.css": "/ruthtechportfolio/static/css/2.63f31f8d.chunk.css",
-    "static/js/2.9564316e.chunk.js": "/ruthtechportfolio/static/js/2.9564316e.chunk.js",
-    "static/js/2.9564316e.chunk.js.map": "/ruthtechportfolio/static/js/2.9564316e.chunk.js.map",
-    "index.html": "/ruthtechportfolio/index.html",
-    "precache-manifest.5b86fd2a7ada315f7e518fcfcb1b71d1.js": "/ruthtechportfolio/precache-manifest.5b86fd2a7ada315f7e518fcfcb1b71d1.js",
-    "service-worker.js": "/ruthtechportfolio/service-worker.js",
-    "static/css/2.63f31f8d.chunk.css.map": "/ruthtechportfolio/static/css/2.63f31f8d.chunk.css.map",
-    "static/css/main.1a762852.chunk.css.map": "/ruthtechportfolio/static/css/main.1a762852.chunk.css.map",
-    "static/js/2.9564316e.chunk.js.LICENSE.txt": "/ruthtechportfolio/static/js/2.9564316e.chunk.js.LICENSE.txt",
-    "static/media/employee-tracker-min.jpg": "/ruthtechportfolio/static/media/employee-tracker-min.13bd5565.jpg",
-    "static/media/profile-photo.png": "/ruthtechportfolio/static/media/profile-photo.780f9b5f.png",
-    "static/media/ruthtech.svg": "/ruthtechportfolio/static/media/ruthtech.da12427d.svg",
-    "static/media/torontoarearesources-min.jpg": "/ruthtechportfolio/static/media/torontoarearesources-min.23ca5cf6.jpg",
-    "static/media/trusael-min.jpg": "/ruthtechportfolio/static/media/trusael-min.d15dbfb8.jpg",
-    "static/media/voting-application.png": "/ruthtechportfolio/static/media/voting-application.66eeee17.png"
+    "main.css": "/ruthlee/static/css/main.a51ca2b3.chunk.css",
+    "main.js": "/ruthlee/static/js/main.8e3ba91b.chunk.js",
+    "main.js.map": "/ruthlee/static/js/main.8e3ba91b.chunk.js.map",
+    "runtime-main.js": "/ruthlee/static/js/runtime-main.8562319e.js",
+    "runtime-main.js.map": "/ruthlee/static/js/runtime-main.8562319e.js.map",
+    "static/css/2.d4bd74a8.chunk.css": "/ruthlee/static/css/2.d4bd74a8.chunk.css",
+    "static/js/2.15dd4774.chunk.js": "/ruthlee/static/js/2.15dd4774.chunk.js",
+    "static/js/2.15dd4774.chunk.js.map": "/ruthlee/static/js/2.15dd4774.chunk.js.map",
+    "index.html": "/ruthlee/index.html",
+    "precache-manifest.3a9c063a7017c4177187dd3349477212.js": "/ruthlee/precache-manifest.3a9c063a7017c4177187dd3349477212.js",
+    "service-worker.js": "/ruthlee/service-worker.js",
+    "static/css/2.d4bd74a8.chunk.css.map": "/ruthlee/static/css/2.d4bd74a8.chunk.css.map",
+    "static/css/main.a51ca2b3.chunk.css.map": "/ruthlee/static/css/main.a51ca2b3.chunk.css.map",
+    "static/js/2.15dd4774.chunk.js.LICENSE.txt": "/ruthlee/static/js/2.15dd4774.chunk.js.LICENSE.txt",
+    "static/media/employee-tracker-min.jpg": "/ruthlee/static/media/employee-tracker-min.13bd5565.jpg",
+    "static/media/trusael-min.jpg": "/ruthlee/static/media/trusael-min.d15dbfb8.jpg",
+    "static/media/voting-application.png": "/ruthlee/static/media/voting-application.66eeee17.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.63221aa7.js",
-    "static/css/2.63f31f8d.chunk.css",
-    "static/js/2.9564316e.chunk.js",
-    "static/css/main.1a762852.chunk.css",
-    "static/js/main.ea60c8c2.chunk.js"
+    "static/js/runtime-main.8562319e.js",
+    "static/css/2.d4bd74a8.chunk.css",
+    "static/js/2.15dd4774.chunk.js",
+    "static/css/main.a51ca2b3.chunk.css",
+    "static/js/main.8e3ba91b.chunk.js"
   ]
 }
