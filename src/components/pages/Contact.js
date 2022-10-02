@@ -5,25 +5,31 @@ function Contact() {
       <div className="container-fluid">
         <div className="row home-row">
           <div className="col-12">
-            <prompt>ruth@lee</prompt><prompt className="white">:</prompt><prompt className="blue">~</prompt><prompt className="white">$</prompt> man 4 ruthlee
+            <div className="typing">
+              <div className="aquamarine">ruth@lee</div>
+              <div className="white">:</div>
+              <div className="blue">~</div>
+              <div className="white">$</div>
+              <div className="typing-effect">man 4 ruthlee</div>
+            </div>
 
             <div className="man">
-              <mantitle>RUTHLEE(4)</mantitle>
+              <div className="mantitle">RUTHLEE(4)</div>
 
-              <mantitle>NAME</mantitle>
+              <div className="mantitle">NAME</div>
               <p>ruthlee - write scalable, reliable, clean headless applications</p>
 
-              <mantitle>DESCRIPTION</mantitle>
+              <div className="mantitle">DESCRIPTION</div>
               <p>Contact Ruth Lee:</p>
               <ul>
                 <li>Email: leeruths@gmail.com</li>
                 <li>GitHub: <a href="https://github.com/ruthtech">https://github.com/ruthtech</a></li>
               </ul>
 
-              <mantitle>SEE ALSO</mantitle>
+              <div className="mantitle">SEE ALSO</div>
               <ul className="no-bullets">
                 <li>Full source code at: <a href="https://github.com/ruthtech">https://github.com/ruthtech</a></li>
-                <li><man>ruthlee</man>(2), <man>ruthlee</man>(3)</li>
+                <li><b>ruthlee</b>(2), <b>ruthlee</b>(3)</li>
               </ul>
             </div>
           </div>

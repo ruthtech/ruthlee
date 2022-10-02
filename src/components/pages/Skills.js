@@ -5,32 +5,38 @@ function Skills() {
       <div className="container-fluid">
         <div className="row home-row">
           <div className="col-12">
-            <prompt>ruth@lee</prompt><prompt className="white">:</prompt><prompt className="blue">~</prompt><prompt className="white">$</prompt> man 2 ruthlee
+            <div className="typing">
+              <div className="aquamarine">ruth@lee</div>
+              <div className="white">:</div>
+              <div className="blue">~</div>
+              <div className="white">$</div>
+              <div className="typing-effect">man 2 ruthlee</div>
+            </div>
 
             <div className="man">
-              <mantitle>RUTHLEE(2)</mantitle>
+              <div className="mantitle">RUTHLEE(2)</div>
 
-              <mantitle>NAME</mantitle>
+              <div className="mantitle">NAME</div>
               <p>ruthlee - write scalable, reliable, clean headless applications</p>
 
-              <mantitle>SKILLS</mantitle>
+              <div className="mantitle">SKILLS</div>
               <ul>
-                <li><man>Languages/tools/frameworks</man>: Java, Spring Boot, JavaScript, Node.js, Express, Unix Bash scripting, Windows Batch scripting</li>
-                <li><man>Testing</man>: JUnit, Mockito, JEST</li>
-                <li><man>Database</man>: MongoDb, MySQL, NoSQL, SQL</li>
-                <li><man>Streaming, Scaling</man>: Apache Kafka, IBM MQ, Autosys, Microsoft Azure</li>
-                <li><man>Operating Systems</man>: Windows, Linux</li>
-                <li><man>Tracking</man>: JIRA, Bugzilla, Trello</li>
-                <li><man>Version control</man>: Git, BitBucket, CVS, proprietary</li>
+                <li><b>Languages/tools/frameworks</b>: Java, Spring Boot, JavaScript, Node.js, Express, Unix Bash scripting, Windows Batch scripting</li>
+                <li><b>Testing</b>: JUnit, Mockito, JEST</li>
+                <li><b>Database</b>: MongoDb, MySQL, NoSQL, SQL</li>
+                <li><b>Streaming, Scaling</b>: Apache Kafka, IBM MQ, Autosys, Microsoft Azure</li>
+                <li><b>Operating Systems</b>: Windows, Linux</li>
+                <li><b>Tracking</b>: JIRA, Bugzilla, Trello</li>
+                <li><b>Version control</b>: Git, BitBucket, CVS, proprietary</li>
                 <li>CI/CD via proprietary software</li>
-                <li><man>Code quality</man>: Veracode, Sonatype, clean code, automated tests</li>
-                <li><man>Other</man>: Spring Cloud Configuration, REST, Agile (Scrum), SDLC (waterfall)</li>
+                <li><b>Code quality</b>: Veracode, Sonatype, clean code, automated tests</li>
+                <li><b>Other</b>: Spring Cloud Configuration, REST, Agile (Scrum), SDLC (waterfall)</li>
               </ul>
 
-              <mantitle>SEE ALSO</mantitle>
+              <div className="mantitle">SEE ALSO</div>
               <ul className="no-bullets">
                 <li>Full source code at: <a href="https://github.com/ruthtech">https://github.com/ruthtech</a></li>
-                <li><man>ruthlee</man>(3), <man>ruthlee</man>(4)</li>
+                <li><b>ruthlee</b>(3), <b>ruthlee</b>(4)</li>
               </ul>
             </div>
           </div>

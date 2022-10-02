@@ -71,32 +71,40 @@ a.nav-link {
 	font-family: "Courier New", monospace;
 }
 
-prompt {
+.aquamarine {
 	color: aquamarine;
 }
 
-prompt.white {
+.white {
 	color: white;
 }
 
-prompt.blue {
+.blue {
 	color: blue;
 }
 
 div.man {
 	padding-top: 1em;
+	animation: revealText 0.5s ease-out 3000ms forwards; /* This time needs to match the amount of time in text-typing */
+	visibility: hidden;
+}
+
+@keyframes revealText {
+	to { visibility: visible }
 }
 
 div.man > p {
 	padding-left: 1em;
 }
 
-div.man > mantitle {
+div.man > div.mantitle {
 	font-weight: bold;
 	font-size: 1em;
 	padding-top: 1em;
 	display: block;
 }
+
+
 
 ul.no-bullets {
 	list-style-type: none;
@@ -106,9 +114,33 @@ ul.no-bullets > li {
 	margin-left: -2em;
 }
 
-man {
-	font-weight: bold;
+.typing {
+	display: flex;
 }
+
+.typing-effect {
+	width: 15ch;
+	animation: typing 2s steps(11), effect .5s step-end infinite alternate;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 3px solid;
+	padding-left: 1ch;
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+}
+
+@keyframes effect {
+	50% {
+		border-color: transparent;
+	}
+}
+
+
+
 
 .contact {
 	padding-left: 1em;
