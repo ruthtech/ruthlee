@@ -41,5 +41,5 @@ MIT
      * Article "Deploy React to GitHub-Pages to create an amazing website!" by Gurjot Singh Makkar (https://codeburst.io/deploy-react-to-github-pages-to-create-an-amazing-website-42d8b09cd4d)
      * Article "So you want to host your Single Page React App on GitHub Pages?" by Brendan McIlhenny (https://itnext.io/so-you-want-to-host-your-single-age-react-app-on-github-pages-a826ab01e48)
      * Article "Deployment" subsection "Notes on client-side routing" by create-react-dev (https://create-react-app.dev/docs/deployment/#github-pages).
-     
+     * Article "10 Useful CSS Tricks for Front-end Developers" subsection "Typing effect for text" by Alex Ivanovs (https://stackdiary.com/useful-css-tricks/)
      
