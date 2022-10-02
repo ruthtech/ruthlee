@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function Contact() {
   return (
@@ -28,8 +29,21 @@ function Contact() {
 
               <div className="mantitle">SEE ALSO</div>
               <ul className="no-bullets">
-                <li>Full source code at: <a href="https://github.com/ruthtech">https://github.com/ruthtech</a></li>
-                <li><b>ruthlee</b>(2), <b>ruthlee</b>(3)</li>
+                <li>Full source code at: <a href="https://github.com/ruthtech/ruthlee">https://github.com/ruthtech/ruthlee</a></li>
+                <li><Link
+                    to="/skills"
+                    className={
+                      window.location.pathname === "/skills"
+                          ? "nav-link active"
+                          : "nav-link"
+                    }><b>ruthlee</b> (2)</Link>,
+                  <Link
+                      to="/portfolio"
+                      className={
+                        window.location.pathname === "/portfolio"
+                            ? "nav-link active"
+                            : "nav-link"
+                      }><b>ruthlee</b> (3)</Link></li>
               </ul>
             </div>
           </div>

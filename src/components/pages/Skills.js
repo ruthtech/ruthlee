@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function Skills() {
   return (
@@ -35,8 +36,22 @@ function Skills() {
 
               <div className="mantitle">SEE ALSO</div>
               <ul className="no-bullets">
-                <li>Full source code at: <a href="https://github.com/ruthtech">https://github.com/ruthtech</a></li>
-                <li><b>ruthlee</b>(3), <b>ruthlee</b>(4)</li>
+                <li>Full source code at: <a href="https://github.com/ruthtech/ruthlee">https://github.com/ruthtech/ruthlee</a></li>
+                <li>
+                  <Link
+                      to="/portfolio"
+                      className={
+                        window.location.pathname === "/portfolio"
+                            ? "nav-link active"
+                            : "nav-link"
+                      }><b>ruthlee</b> (3)</Link>,
+                  <Link
+                      to="/contact"
+                      className={
+                        window.location.pathname === "/contact"
+                            ? "nav-link active"
+                            : "nav-link"
+                      }><b>ruthlee</b> (4)</Link></li>
               </ul>
             </div>
           </div>
