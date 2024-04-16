@@ -18,7 +18,7 @@ function Contact() {
               <div className="mantitle">RUTHLEE(4)</div>
 
               <div className="mantitle">NAME</div>
-              <p>ruthlee - write scalable, reliable, clean headless applications</p>
+              <p>ruthlee - write scalable, reliable, clean applications</p>
 
               <div className="mantitle">DESCRIPTION</div>
               <p>Contact Ruth Lee:</p>
@@ -30,20 +30,29 @@ function Contact() {
               <div className="mantitle">SEE ALSO</div>
               <ul className="no-bullets">
                 <li>Full source code at: <a href="https://github.com/ruthtech/ruthlee">https://github.com/ruthtech/ruthlee</a></li>
-                <li><Link
-                    to="/skills"
-                    className={
-                      window.location.pathname === "/skills"
-                          ? "nav-link active"
-                          : "nav-link"
-                    }><b>ruthlee</b> (2)</Link>,
-                  <Link
+                <li>
+                    <Link
+                      to="/"
+                      className={
+                        window.location.pathname === "/"
+                            ? "nav-link active"
+                            : "nav-link"
+                      }><b>ruthlee</b> (1)</Link>,
+                      <Link
                       to="/portfolio"
                       className={
                         window.location.pathname === "/portfolio"
                             ? "nav-link active"
                             : "nav-link"
-                      }><b>ruthlee</b> (3)</Link></li>
+                      }><b>ruthlee</b> (2)</Link>,
+                    <Link
+                    to="/aboutMe"
+                    className={
+                      window.location.pathname === "/aboutMe"
+                          ? "nav-link active"
+                          : "nav-link"
+                    }><b>ruthlee</b> (3)</Link>
+                  </li>
               </ul>
             </div>
           </div>

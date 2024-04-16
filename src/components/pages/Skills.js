@@ -11,21 +11,25 @@ function Skills() {
               <div className="white">:</div>
               <div className="blue">~</div>
               <div className="white">$</div>
-              <div className="typing-effect">man 2 ruthlee</div>
+              <div className="typing-effect">man ruthlee</div>
             </div>
 
             <div className="man">
-              <div className="mantitle">RUTHLEE(2)</div>
+              <div className="mantitle">RUTHLEE(1)</div>
 
               <div className="mantitle">NAME</div>
-              <p>ruthlee - write scalable, reliable, clean headless applications</p>
+              <p>ruthlee - write scalable, reliable, clean applications</p>
 
               <div className="mantitle">SKILLS</div>
               <ul>
+                <li><b>System Design</b>: microservices, distributed computing</li>
+                <li><b>Monitoring</b>: Dynatrace, Sensu, OpenTelemetry</li>
+                <li><b>Streaming, Scaling</b>: Apache Kafka, IBM MQ, F5, Autosys</li>
                 <li><b>Languages/tools/frameworks</b>: Java, Spring Boot, JavaScript, Node.js, Express, Unix Bash scripting, Windows Batch scripting</li>
                 <li><b>Testing</b>: JUnit, Mockito, JEST</li>
-                <li><b>Database</b>: MongoDb, MySQL, NoSQL, SQL</li>
-                <li><b>Streaming, Scaling</b>: Apache Kafka, IBM MQ, Autosys, Microsoft Azure</li>
+                <li><b>Database</b>: MongoDb, MySQL, SQL</li>
+                <li><b>Cloud</b>: Microsoft Azure</li>
+                <li><b>Containers</b>: Docker</li>
                 <li><b>Operating Systems</b>: Windows, Linux</li>
                 <li><b>Tracking</b>: JIRA, Bugzilla, Trello</li>
                 <li><b>Version control</b>: Git, BitBucket, CVS, proprietary</li>
@@ -38,10 +42,17 @@ function Skills() {
               <ul className="no-bullets">
                 <li>Full source code at: <a href="https://github.com/ruthtech/ruthlee">https://github.com/ruthtech/ruthlee</a></li>
                 <li>
-                  <Link
+                <Link
                       to="/portfolio"
                       className={
                         window.location.pathname === "/portfolio"
+                            ? "nav-link active"
+                            : "nav-link"
+                      }><b>ruthlee</b> (2)</Link>,
+                  <Link
+                      to="/aboutMe"
+                      className={
+                        window.location.pathname === "/aboutMe"
                             ? "nav-link active"
                             : "nav-link"
                       }><b>ruthlee</b> (3)</Link>,
