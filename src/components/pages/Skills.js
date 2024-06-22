@@ -35,7 +35,8 @@ function Skills() {
                 <li><b>Version control</b>: Git, BitBucket, CVS, proprietary</li>
                 <li>CI/CD via proprietary software</li>
                 <li><b>Code quality</b>: Veracode, Sonatype, clean code, automated tests</li>
-                <li><b>Other</b>: Spring Cloud Configuration, REST, Agile (Scrum), SDLC (waterfall)</li>
+                <li><b>Other</b>: Spring Cloud Configuration, REST, Agile (Scrum), SDLC (waterfall), excellent written communication skills</li>
+                <li><b>Bonus</b>: sense of humour</li>
               </ul>
 
               <div className="mantitle">SEE ALSO</div>

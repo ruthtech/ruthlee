@@ -85,7 +85,7 @@ a.nav-link {
 
 div.man {
 	padding-top: 1em;
-	animation: revealText 0.25s ease-out 1600ms forwards; /* This time needs to match the amount of time in text-typing */
+	animation: revealText 0.25s ease-out 1750ms forwards; /* This time needs to match the amount of time in text-typing */
 	visibility: hidden;
 }
 
