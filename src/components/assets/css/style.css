@@ -85,7 +85,7 @@ a.nav-link {
 
 div.man {
 	padding-top: 1em;
-	animation: revealText 0.5s ease-out 3000ms forwards; /* This time needs to match the amount of time in text-typing */
+	animation: revealText 0.25s ease-out 1600ms forwards; /* This time needs to match the amount of time in text-typing */
 	visibility: hidden;
 }
 
@@ -118,7 +118,7 @@ ul.no-bullets > li {
 
 .typing-effect {
 	width: 15ch;
-	animation: typing 2s steps(11), effect .5s step-end infinite alternate;
+	animation: typing 1.15s steps(11), effect .5s step-end infinite alternate;
 	white-space: nowrap;
 	overflow: hidden;
 	border-right: 3px solid;
