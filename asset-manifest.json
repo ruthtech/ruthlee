@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ruthlee/static/css/main.d62f62ba.css",
-    "main.js": "/ruthlee/static/js/main.3fe87859.js",
+    "main.css": "/ruthlee/static/css/main.abc613fd.css",
+    "main.js": "/ruthlee/static/js/main.bb48f45b.js",
     "static/media/trusael-min.jpg": "/ruthlee/static/media/trusael-min.a83305ca6aace2812f9f.jpg",
     "static/media/voting-application.png": "/ruthlee/static/media/voting-application.fe2b46b3dedb246482a2.png",
     "static/media/employee-tracker-min.jpg": "/ruthlee/static/media/employee-tracker-min.7e67949970109338dba6.jpg",
     "index.html": "/ruthlee/index.html",
-    "main.d62f62ba.css.map": "/ruthlee/static/css/main.d62f62ba.css.map",
-    "main.3fe87859.js.map": "/ruthlee/static/js/main.3fe87859.js.map"
+    "main.abc613fd.css.map": "/ruthlee/static/css/main.abc613fd.css.map",
+    "main.bb48f45b.js.map": "/ruthlee/static/js/main.bb48f45b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d62f62ba.css",
-    "static/js/main.3fe87859.js"
+    "static/css/main.abc613fd.css",
+    "static/js/main.bb48f45b.js"
   ]
 }
