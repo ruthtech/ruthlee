@@ -12,11 +12,11 @@ function AboutMe() {
             <div className="white">:</div>
             <div className="blue">~</div>
             <div className="white">$</div>
-            <div className="typing-effect">man 3 ruthlee</div>
+            <div className="typing-effect">man 7 ruthlee</div>
           </div>
 
           <div className="man">
-            <div className="mantitle">RUTHLEE(3)</div>
+            <div className="mantitle">RUTHLEE(7)</div>
 
             <div className="mantitle">NAME</div>
               <p>ruthlee - write scalable, reliable, clean applications</p>
@@ -55,8 +55,8 @@ function AboutMe() {
               </p>
 
               <p>
-                Clean code, thorough testing, technical documentation, mentoring, and system design round out the package.
-                And caffeine. Caffeine is important.
+                Clean code, thorough testing, technical documentation, mentoring and system design round out the package.
+                Coffee is appreciated.
               </p>
 
             <div className="mantitle">AUTHOR</div>
@@ -81,14 +81,14 @@ function AboutMe() {
                       window.location.pathname === "/portfolio"
                           ? "nav-link active"
                           : "nav-link"
-                    }><b>ruthlee</b> (2)</Link>,
+                    }><b>ruthlee</b> (4)</Link>,
                   <Link
                       to="/contact"
                       className={
                         window.location.pathname === "/contact"
                             ? "nav-link active"
                             : "nav-link"
-                      }><b>ruthlee</b> (4)</Link></li>
+                      }><b>ruthlee</b> (8)</Link></li>
               </ul>
             </div>
         </div>

@@ -22,18 +22,17 @@ function Skills() {
 
               <div className="mantitle">SKILLS</div>
               <ul>
-                <li><b>System Design</b>: microservices, distributed computing</li>
-                <li><b>Monitoring</b>: Dynatrace, Sensu, OpenTelemetry</li>
+                <li><b>System Design</b>: microservices, distributed computing, design patterns</li>
+                <li><b>Monitoring</b>: Dynatrace, Sensu</li>
                 <li><b>Streaming, Scaling</b>: Apache Kafka, IBM MQ, F5, Autosys</li>
-                <li><b>Languages/tools/frameworks</b>: Java, Spring Boot, JavaScript, Node.js, Express, Unix Bash scripting, Windows Batch scripting</li>
+                <li><b>Programming and Scripting Languages</b>: Java 8, Java 11, Java 17, JavaScript, Python, Bash, Windows Batch</li>
+                <li><b>Frameworks</b>: Spring Boot, Node.js, Express</li>
                 <li><b>Testing</b>: JUnit, Mockito, JEST</li>
-                <li><b>Database</b>: MongoDb, MySQL, SQL</li>
-                <li><b>Cloud</b>: Microsoft Azure</li>
+                <li><b>Database</b>: MongoDb, MySQL</li>
+                <li><b>Cloud-Based Systems</b>: Understanding of cloud infrastructure and services. Microsoft Certified: Azure Fundamentals</li>
                 <li><b>Containers</b>: Docker</li>
-                <li><b>Operating Systems</b>: Windows, Linux</li>
                 <li><b>Tracking</b>: JIRA, Bugzilla, Trello</li>
                 <li><b>Version control</b>: Git, BitBucket, CVS, proprietary</li>
-                <li>CI/CD via proprietary software</li>
                 <li><b>Code quality</b>: Veracode, Sonatype, clean code, automated tests</li>
                 <li><b>Other</b>: Spring Cloud Configuration, REST, Agile (Scrum), SDLC (waterfall), excellent written communication skills</li>
               </ul>
@@ -48,21 +47,21 @@ function Skills() {
                         window.location.pathname === "/portfolio"
                             ? "nav-link active"
                             : "nav-link"
-                      }><b>ruthlee</b> (2)</Link>,
+                      }><b>ruthlee</b> (4)</Link>,
                   <Link
                       to="/aboutMe"
                       className={
                         window.location.pathname === "/aboutMe"
                             ? "nav-link active"
                             : "nav-link"
-                      }><b>ruthlee</b> (3)</Link>,
+                      }><b>ruthlee</b> (7)</Link>,
                   <Link
                       to="/contact"
                       className={
                         window.location.pathname === "/contact"
                             ? "nav-link active"
                             : "nav-link"
-                      }><b>ruthlee</b> (4)</Link></li>
+                      }><b>ruthlee</b> (8)</Link></li>
               </ul>
             </div>
           </div>

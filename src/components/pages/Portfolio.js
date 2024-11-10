@@ -1,48 +1,29 @@
 import React from "react";
 import "../assets/css/style.css";
-import PrjImg0 from '../assets/media/voting-application.png';
-import PrjImg1 from '../assets/media/trusael-min.jpg';
-import PrjImg2 from '../assets/media/employee-tracker-min.jpg';
+import PrjImg1 from '../assets/media/voting-application.png';
+import PrjImg0 from '../assets/media/dataengineering.png';
 
 function Portfolio() {
   const projects = [
+    {
+      title: "PCDE-Activity-9.1",
+      summary: "Jupyter Notebook project",
+      skills: ['Markdown'],
+      github: "https://github.com/ruthtech/PCDE-Activity-9.1",
+      external_url: "https://ruthtech.github.io/PCDE-Activity-9.1/",
+      colour: "bg-darkBlue",
+      image: {PrjImg0},
+      index: 0
+    },
     {
       title: "Canada Votes Online", 
       summary: "Enable eligible voters to vote online. Simulate and view election results.", 
       skills: ['MongoDB', 'Mongoose', 'React', 'mapbox', 'Server (Node, Express)', 'Heroku', 'dotenv', 'loglevel', 'loglevel-plugin-remote', 'axios', 'Bootstrap', 'HTML', 'CSS'  ], 
       github: "https://github.com/ruthtech/voting-app", 
-      heroku: "https://arcane-mountain-21933.herokuapp.com/",
+      external_url: "https://ruthtech.github.io/voting-app/",
       colour: "bg-darkBlue",
-      image: {PrjImg0},
-      logins: [
-        {title: "Admin", userid: "admin", password: "admin"},
-        {title: "Voter", userid: "happyfrog374", password: "technics"}
-      ],
-      index: 0
-    },
-    {
-      title: "TrusÆL Online Marketplace", 
-      summary: "Real estate agents compete by bidding to represent sellers in transactions. Sellers compare bids and look at agent reviews when deciding who will get their business.", 
-      skills: ['Server (Node, Express)', 'Heroku', 'dotenv', 'MySQL', 'Crypto-JS', 'JavaScript', 'Bootstrap', 'AJAX', 'jQuery', 'HTML', 'CSS'  ], 
-      github: "https://github.com/BCButcher/TRUS-L", 
-      heroku: "https://murmuring-cove-22350.herokuapp.com/",
-      colour: "bg-lightBlue",
       image: {PrjImg1},
-      logins: [
-        {title: "Agent", userid: "abbybanksy@broker.ca", password: "password"},
-        {title: "Seller", userid: "louiekritski@fake.com", password: "password"}
-      ],
       index: 1
-    },
-    {
-      title: "Employee Tracker", 
-      summary: "Command line tool that manages a company's employees: add employee, view departments, remove employee etc.", 
-      skills: ['Node', 'Inquirer', 'JavaScript', 'MySQL' ], 
-      github: "https://github.com/ruthtech/employee-tracker", 
-      heroku: "https://github.com/ruthtech/employee-tracker/blob/master/employee-tracker.gif",
-      colour: "bg-darkBlue",
-      image: {PrjImg2},
-      index: 2
     }
   ];
 
@@ -99,15 +80,15 @@ function ProjectDetails(props) {
               type="button"
               className="btn portfolio-button"
               onClick={() => {window.location=props.project.github}}>
-                See the code
+                View code
             </button>
           </div>
           <div className="col">
             <button
               type="button"
               className="btn portfolio-button"
-              onClick={() => {window.location=props.project.heroku}}>
-                View demo
+              onClick={() => {window.location=props.project.external_url}}>
+                View GitHub Page
             </button>
           </div>
         </div>

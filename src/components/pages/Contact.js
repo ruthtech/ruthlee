@@ -11,11 +11,11 @@ function Contact() {
               <div className="white">:</div>
               <div className="blue">~</div>
               <div className="white">$</div>
-              <div className="typing-effect">man 4 ruthlee</div>
+              <div className="typing-effect">man 8 ruthlee</div>
             </div>
 
             <div className="man">
-              <div className="mantitle">RUTHLEE(4)</div>
+              <div className="mantitle">RUTHLEE(8)</div>
 
               <div className="mantitle">NAME</div>
               <p>ruthlee - write scalable, reliable, clean applications</p>
@@ -44,14 +44,14 @@ function Contact() {
                         window.location.pathname === "/portfolio"
                             ? "nav-link active"
                             : "nav-link"
-                      }><b>ruthlee</b> (2)</Link>,
+                      }><b>ruthlee</b> (4)</Link>,
                     <Link
                     to="/aboutMe"
                     className={
                       window.location.pathname === "/aboutMe"
                           ? "nav-link active"
                           : "nav-link"
-                    }><b>ruthlee</b> (3)</Link>
+                    }><b>ruthlee</b> (7)</Link>
                   </li>
               </ul>
             </div>
