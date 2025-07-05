@@ -53,12 +53,11 @@ To view this on a live system, go to https://ruthtech.github.io/ruthlee/
 
 ## Built With
 
-* [Visual Studio Code] https://code.visualstudio.com/docs/setup/setup-overview
-* [GIMP] (https://www.gimp.org/downloads/)
-* Bootstrap
-    * [Bootstrap] (https://getbootstrap.com)
-* Create-React-App (https://github.com/facebook/create-react-app)
-* React (https://reactjs.org/)
+* [Visual Studio Code](https://code.visualstudio.com/docs/setup/setup-overview)
+* [GIMP](https://www.gimp.org/downloads/)
+* [Bootstrap](https://getbootstrap.com)
+* [Create-React-App](https://github.com/facebook/create-react-app)
+* [React](https://reactjs.org/)
 
 ## Contributing
 

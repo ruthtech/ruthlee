@@ -51,11 +51,16 @@ function AboutMe() {
 
               <p>
                 Applications need to be able to handle the load, stand up to network glitches,
-                and fail gracefully. If an application runs long enough then the edge cases happen.
+                and fail gracefully. If an application runs long enough, then the edge cases happen.
               </p>
 
               <p>
-                Clean code, thorough testing, technical documentation, mentoring and system design round out the package.
+                Recently, data has started to fascinate me. I enjoy gathering insights from data and storytelling.
+                Soon, projects showing my explorations will be listed on my Portfolio page.
+              </p>
+
+              <p>
+                Clean code, thorough testing, mentoring and system design round out the package.
                 Coffee is appreciated.
               </p>
 

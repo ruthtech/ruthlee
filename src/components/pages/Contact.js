@@ -23,7 +23,7 @@ function Contact() {
               <div className="mantitle">DESCRIPTION</div>
               <p>Contact Ruth Lee:</p>
               <ul>
-                <li>Email: leeruths@gmail.com</li>
+                <li>Email: ruthlee@distantland.ca</li>
                 <li>GitHub: <a href="https://github.com/ruthtech">https://github.com/ruthtech</a></li>
               </ul>
 

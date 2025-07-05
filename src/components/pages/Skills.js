@@ -22,19 +22,20 @@ function Skills() {
 
               <div className="mantitle">SKILLS</div>
               <ul>
+                <li><b>Programming and Scripting Languages</b>: SQL, Python, Java 11, Java 17, JavaScript, Bash, Windows Batch</li>
                 <li><b>System Design</b>: microservices, distributed computing, design patterns</li>
-                <li><b>Monitoring</b>: Dynatrace, Sensu</li>
                 <li><b>Streaming, Scaling</b>: Apache Kafka, IBM MQ, F5, Autosys</li>
-                <li><b>Programming and Scripting Languages</b>: Java 8, Java 11, Java 17, JavaScript, Python, Bash, Windows Batch</li>
                 <li><b>Frameworks</b>: Spring Boot, Node.js, Express</li>
-                <li><b>Testing</b>: JUnit, Mockito, JEST</li>
+                <li><b>Testing</b>: JUnit, Mockito</li>
                 <li><b>Database</b>: MongoDb, MySQL</li>
                 <li><b>Cloud-Based Systems</b>: Understanding of cloud infrastructure and services. Microsoft Certified: Azure Fundamentals</li>
+                <li><b>Monitoring</b>: Dynatrace, Sensu</li>
                 <li><b>Containers</b>: Docker</li>
                 <li><b>Tracking</b>: JIRA, Bugzilla, Trello</li>
-                <li><b>Version control</b>: Git, BitBucket, CVS, proprietary</li>
+                <li><b>Version control</b>: Git, BitBucket, proprietary</li>
                 <li><b>Code quality</b>: Veracode, Sonatype, clean code, automated tests</li>
-                <li><b>Other</b>: Spring Cloud Configuration, REST, Agile (Scrum), SDLC (waterfall), excellent written communication skills</li>
+                <li><b>Communication</b>: Jupyter Notebook, excellent written communication including technical documentation.</li>
+                <li><b>Other</b>: Spring Cloud Configuration, REST, Agile (Scrum), SDLC (waterfall)</li>
               </ul>
 
               <div className="mantitle">SEE ALSO</div>

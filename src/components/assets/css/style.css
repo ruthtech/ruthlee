@@ -240,7 +240,7 @@ ul.no-bullets > li {
 }
 
 .login {
-	padding: 0em;
+	padding: 0;
 }
 
 .login-literal {
@@ -248,7 +248,7 @@ ul.no-bullets > li {
 }
 
 .project-skills {
-	padding: 0em;
+	padding: 0;
 }
 
 .project-skills li, .login li {
@@ -263,5 +263,3 @@ ul.no-bullets > li {
 
 
 /* END MAIN SECTIONS */
-
-  

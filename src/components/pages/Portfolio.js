@@ -1,20 +1,9 @@
 import React from "react";
 import "../assets/css/style.css";
 import PrjImg1 from '../assets/media/voting-application.png';
-import PrjImg0 from '../assets/media/dataengineering.png';
 
 function Portfolio() {
   const projects = [
-    {
-      title: "PCDE-Activity-9.1",
-      summary: "Jupyter Notebook project",
-      skills: ['Markdown'],
-      github: "https://github.com/ruthtech/PCDE-Activity-9.1",
-      external_url: "https://ruthtech.github.io/PCDE-Activity-9.1/",
-      colour: "bg-darkBlue",
-      image: {PrjImg0},
-      index: 0
-    },
     {
       title: "Canada Votes Online", 
       summary: "Enable eligible voters to vote online. Simulate and view election results.", 
@@ -40,25 +29,6 @@ function Portfolio() {
   );
 }
 
-function ListLogins(props) {
-  const loginDiv = () => {
-    if(props.project.logins !== undefined) {
-      return (
-      <div>
-        <span className="small">Logins to use in the demo:</span>
-        <ul className="login">{props.project.logins.map( (login, index) => {
-          return <li key={'login'+index}>{login.title}: <span className="login-literal">{login.userid}</span>, password: <span className="login-literal">{login.password}</span></li>
-        })}</ul>
-      </div>
-      );
-    }
-  };
-
-  return (
-    <div>{loginDiv()}</div>
-  );
-}
-
 function ProjectDetails(props) {
   let imageName = "PrjImg" + props.project.index;
 
@@ -72,8 +42,8 @@ function ProjectDetails(props) {
         <p>{props.project.summary}</p>
         <ul className="project-skills">{props.project.skills.map( (skill, index) => {
           return <li key={'detail'+index}>{skill}</li>
-        })}</ul>
-        <ListLogins project={props.project}/>
+        })}
+        </ul>
         <div className="row">
           <div className="col">
             <button
