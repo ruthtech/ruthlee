@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/ruthlee/static/css/main.29ebfac2.css",
-    "main.js": "/ruthlee/static/js/main.38a9f10a.js",
+    "main.css": "/ruthlee/static/css/main.838ceba6.css",
+    "main.js": "/ruthlee/static/js/main.2410d482.js",
     "static/media/voting-application.png": "/ruthlee/static/media/voting-application.fe2b46b3dedb246482a2.png",
-    "static/media/dataengineering.png": "/ruthlee/static/media/dataengineering.8163b59226fcc0d91a90.png",
     "index.html": "/ruthlee/index.html",
-    "main.29ebfac2.css.map": "/ruthlee/static/css/main.29ebfac2.css.map",
-    "main.38a9f10a.js.map": "/ruthlee/static/js/main.38a9f10a.js.map"
+    "main.838ceba6.css.map": "/ruthlee/static/css/main.838ceba6.css.map",
+    "main.2410d482.js.map": "/ruthlee/static/js/main.2410d482.js.map"
   },
   "entrypoints": [
-    "static/css/main.29ebfac2.css",
-    "static/js/main.38a9f10a.js"
+    "static/css/main.838ceba6.css",
+    "static/js/main.2410d482.js"
   ]
 }
